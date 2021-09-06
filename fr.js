@@ -2950,6 +2950,131 @@ const vAccepter = {
 	ending : "-er",
 	base : "",
 	definition : "to accept",
+//tenses
+present : {
+	je : "accepte",
+	tu : "acceptes",
+	"il/elle/on" : "accepte",
+	nous : "acceptons",
+	vous : "acceptez",
+	"ils/elles" : "acceptent" },
+passeSimple : {
+	je : "descendis",
+	tu : "descendis",
+	"il/elle/on" : "descendit",
+	nous : "descendîmes",
+	vous : "descendîtes",
+	"ils/elles" : "descendirent"},
+imparfait : {
+	je : "descendais",
+	tu : "descendais",
+	"il/elle/on" : "descendait",
+	nous : "descendions",
+	vous : "descendiez",
+	"ils/elles" : "descendaient"},
+futurSimple : {
+	je : "descendrai",
+	tu : "descendras",
+	"il/elle/on" : "descendra",
+	nous : "descendrons",
+	vous : "descendrez",
+	"ils/elles" : "descendront"},
+//compound tenses
+passeCompose : {
+	je : "suis descendu(e)",
+	tu : "es descendu(e)",
+	"il/elle/on" : "est descendu(e)",
+	nous : "sommes descendu(e)s",
+	vous : "êtes descendu(e)(s)",
+	"ils/elles" : "sont descendu(e)s"},
+plusQueParfait : {
+	je : "'étais descendu(e)",
+	tu : "étais descendu(e)",
+	"il/elle/on" : "était descendu(e)",
+	nous : "étions descendu(e)s",
+	vous : "étiez descendu(e)(s)",
+	"ils/elles" : "étaient descendu(e)s"},
+passeAnterieur : {
+	je : "fus descendu(e)",
+	tu : "fus descendu(e)",
+	"il/elle/on" : "fut descendu(e)",
+	nous : "fûmes descendu(e)s",
+	vous : "fûtes descendu(e)(s)",
+	"ils/elles" : "furent descendu(e)s"},
+futurAnterieur : {
+	je : "serai descendu(e)",
+	tu : "seras descendu(e)",
+	"il/elle/on" : "sera descendu(e)",
+	nous : "serons descendu(e)s",
+	vous : "serez descendu(e)(s)",
+	"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+presentSubjonctif : {
+	"que je" : "descende",
+	"que tu" : "descendes",
+	"qu'il/elle/on" : "descende",
+	"que nous" : "descendions",
+	"que vous" : "descendiez",
+	"qu'ils/elles" : "descendent"},
+imparfaitSubjonctif : {
+	"que je" : "descendisse",
+	"que tu" : "descendisses",
+	"qu'il/elle/on" : "descendît",
+	"que nous" : "descendissions",
+	"que vous" : "descendissiez",
+	"qu'ils/elles" : "descendissent"},
+passeSubjonctif : {
+	"que je" : "sois descendu(e)",
+	"que tu" : "sois descendu(e)",
+	"qu'il/elle/on" : "soit descendu(e)",
+	"que nous" : "soyons descendu(e)s",
+	"que vous" : "soyez descendu(e)(s)",
+	"qu'ils/elles" : "soient descendu(e)s"},
+plusQueParfaitSubjonctif : {
+	"que je" : "fusse descendu(e)",
+	"que tu" : "fusses descendu(e)",
+	"qu'il/elle/on" : "fût descendu(e)",
+	"que nous" : "fussions descendu(e)s",
+	"que vous" : "fussiez descendu(e)(s)",
+	"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+presentConditionmel : {
+	je : "descendrais",
+	tu : "descendrais",
+	"il/elle/on" : "descendrait",
+	nous : "descendrions",
+	vous : "descendriez",
+	"ils/elles" : "descendraient"},
+passeConditionnel : {
+	je : "serais descendu(e)",
+	tu : "serais descendu(e)",
+	"il/elle/on" : "serait descendu(e)",
+	nous : "serions descendu(e)s",
+	vous : "seriez descendu(e)(s)",
+	"ils/elles" : "seraient descendu(e)s"},
+passe2Conditionnel : {
+	je : "fusse descendu(e)",
+	tu : "fusses descendu(e)",
+	"il/elle/on" : "fût descendu(e)",
+	nous : "fussions descendu(e)s",
+	vous : "fussiez descendu(e)(s)",
+	"ils/elles" : "fussent descendu(e)s"},
+//imperative
+presentImperatif : {
+	je: "",
+	tu : "descends",
+	"il/elle/on" : "",
+	nous : "descendons",
+	vous : "descendez",
+	"ils/elles" : ""},
+passeImperatif : {
+	je: "",
+	tu : "sois descendu(e)",
+	"il/elle/on" : "",
+	nous : "soyons descendu(e)s",
+	vous : "soyez descendu(e)(s)",
+	"ils/elles" : ""},
+
 }
 const vAgir = {
 //verb info
@@ -2959,6 +3084,131 @@ const vAgir = {
 	ending : "-ir",
 	base : "",
 	definition : "to act",
+//tenses
+	present : {
+		je : "agis",
+		tu : "agis",
+		"il/elle/on" : "agit",
+		nous : "agissons",
+		vous : "agissez",
+		"ils/elles" : "agissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+
 }
 const vPoser = {
 //verb info
@@ -2968,6 +3218,131 @@ const vPoser = {
 	ending : "-er",
 	base : "",
 	definition : "to pose, to put down",
+	//tenses
+	present : {
+		je : "pose",
+		tu : "poses",
+		"il/elle/on" : "pose",
+		nous : "posons",
+		vous : "posez",
+		"ils/elles" : "posent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+	//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+	
 }
 const vJouer = {
 //verb info
@@ -2977,6 +3352,131 @@ const vJouer = {
 	ending : "-er",
 	base : "",
 	definition : "to play",
+	//tenses
+	present : {
+		je : "joue",
+		tu : "joues",
+		"il/elle/on" : "joue",
+		nous : "jouons",
+		vous : "jouez",
+		"ils/elles" : "jouent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+	//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+	
 }
 const vChoisir = {
 //verb info
@@ -2986,6 +3486,131 @@ const vChoisir = {
 	ending : "-ir",
 	base : "",
 	definition : "to choose",
+//tenses
+	present : {
+		je : "choisis",
+		tu : "choisis",
+		"il/elle/on" : "choisit",
+		nous : "choisissons",
+		vous : "choisissez",
+		"ils/elles" : "choisissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+	//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+	
 }
 const vToucher = {
 //verb info
@@ -2995,6 +3620,131 @@ const vToucher = {
 	ending : "-er",
 	base : "",
 	definition : "to touch, to affect",
+//tenses
+	present : {
+		je : "touche",
+		tu : "touches",
+		"il/elle/on" : "touche",
+		nous : "touchons",
+		vous : "touchez",
+		"ils/elles" : "touchent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+	
 }
 const vRetrouver = {
 //verb info
@@ -3004,6 +3754,131 @@ const vRetrouver = {
 	ending : "-er",
 	base : "",
 	definition : "to find, to regain",
+//tenses
+	present : {
+		je : "retrouve",
+		tu : "retrouves",
+		"il/elle/on" : "retrouve",
+		nous : "retrouvons",
+		vous : "retrouvez",
+		"ils/elles" : "retrouvent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+	
 }
 const vExpliquer = {
 //verb info
@@ -3013,6 +3888,131 @@ const vExpliquer = {
 	ending : "-er",
 	base : "",
 	definition : "to explain",
+//tenses
+	present : {
+		je : "explique",
+		tu : "expliques",
+		"il/elle/on" : "explique",
+		nous : "expliquons",
+		vous : "expliquez",
+		"ils/elles" : "expliquent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+	//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+	
 }
 const vConsiderer = {
 	//verb info
@@ -3022,6 +4022,131 @@ const vConsiderer = {
 	ending : "-er",
 	base : "",
 	definition : "to consider",
+//tenses
+	present : {
+		je : "considère",
+		tu : "considères",
+		"il/elle/on" : "considère",
+		nous : "considérons",
+		vous : "considérez",
+		"ils/elles" : "considèrent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
+	
 }
 
 const vGagner = {
@@ -3032,6 +4157,130 @@ const vGagner = {
 	ending : "-er",
 	base : "",
 	definition : "to win",
+//tenses
+	present : {
+		je : "gagne",
+		tu : "gagnes",
+		"il/elle/on" : "gagne",
+		nous : "gagnons",
+		vous : "gagnez",
+		"ils/elles" : "gagnent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vExister = {
 //verb info
@@ -3041,6 +4290,130 @@ const vExister = {
 	ending : "-er",
 	base : "",
 	definition : "to exist",
+//tenses
+	present : {
+		je : "existe",
+		tu : "existes",
+		"il/elle/on" : "existe",
+		nous : "existons",
+		vous : "existez",
+		"ils/elles" : "existent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vRefuser = {
 //verb info
@@ -3050,6 +4423,130 @@ const vRefuser = {
 	ending : "-er",
 	base : "",
 	definition : "to refuse",
+//tenses
+	present : {
+		je : "refuse",
+		tu : "refuses",
+		"il/elle/on" : "refuse",
+		nous : "refusons",
+		vous : "refusez",
+		"ils/elles" : "refusent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vReussir = {
 //verb info
@@ -3059,6 +4556,130 @@ const vReussir = {
 	ending : "-ir",
 	base : "",
 	definition : "to succeed",
+//tenses
+	present : {
+		je : "réussis",
+		tu : "réussis",
+		"il/elle/on" : "réussit",
+		nous : "réussissons",
+		vous : "réussissez",
+		"ils/elles" : "réussissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vChanger = {
 //verb info
@@ -3068,15 +4689,263 @@ const vChanger = {
 	ending : "-er",
 	base : "",
 	definition : "to change",	
+//tenses
+	present : {
+		je : "change",
+		tu : "changes",
+		"il/elle/on" : "change",
+		nous : "changeons",
+		vous : "changez",
+		"ils/elles" : "changent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vEssayer = {
-	//verb info
-		verb : "essayer",
-		regularity : "regular",
-		reflexivity : "not reflexive",
-		ending : "-er",
-		base : "",
-		definition : "to try",
+//verb info
+	verb : "essayer",
+	regularity : "regular",
+	reflexivity : "not reflexive",
+	ending : "-er",
+	base : "",
+	definition : "to try",
+//tenses
+	present : {
+		je : "essayes, essaie",
+		tu : "essayes, essaies",
+		"il/elle/on" : "essayet, essaie",
+		nous : "essayons",
+		vous : "essayez",
+		"ils/elles" : "essayent, essaient" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},	
 	}
 const vTravailler = {
 //verb info
@@ -3086,6 +4955,130 @@ const vTravailler = {
 	ending : "-er",
 	base : "",
 	definition : "to work",	
+//tenses
+	present : {
+		je : "travaille",
+		tu : "travailles",
+		"il/elle/on" : "travaille",
+		nous : "travaillons",
+		vous : "travaillez",
+		"ils/elles" : "travaillent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vRepresenter = {
 //verb info
@@ -3095,6 +5088,130 @@ const vRepresenter = {
 	ending : "-er",
 	base : "",
 	definition : "to represent",	
+//tenses
+	present : {
+		je : "réussis",
+		tu : "réussis",
+		"il/elle/on" : "réussit",
+		nous : "réussissons",
+		vous : "réussissez",
+		"ils/elles" : "réussissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vAssurer = {
 //verb info
@@ -3104,6 +5221,130 @@ const vAssurer = {
 	ending : "-er",
 	base : "",
 	definition : "to assure",	
+//tenses
+	present : {
+		je : "assure",
+		tu : "assures",
+		"il/elle/on" : "assure",
+		nous : "assurons",
+		vous : "assurez",
+		"ils/elles" : "assurent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vEmpecher = {
 //verb info
@@ -3112,7 +5353,131 @@ const vEmpecher = {
 	reflexivity : "not reflexive",
 	ending : "-er",
 	base : "",
-	definition : "to prevent",	
+	definition : "to prevent",
+//tenses
+	present : {
+		je : "réussis",
+		tu : "réussis",
+		"il/elle/on" : "réussit",
+		nous : "réussissons",
+		vous : "réussissez",
+		"ils/elles" : "réussissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},	
 }
 const vMener = {
 //verb info
@@ -3122,6 +5487,130 @@ const vMener = {
 	ending : "-er",
 	base : "",
 	definition : "to lead, to conduct",	
+//tenses
+	present : {
+		je : "réussis",
+		tu : "réussis",
+		"il/elle/on" : "réussit",
+		nous : "réussissons",
+		vous : "réussissez",
+		"ils/elles" : "réussissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vRisquer = {
 //verb info
@@ -3131,6 +5620,130 @@ const vRisquer = {
 	ending : "-er",
 	base : "",
 	definition : "to risk",	
+//tenses
+	present : {
+		je : "risque",
+		tu : "risques",
+		"il/elle/on" : "risque",
+		nous : "risquons",
+		vous : "risquez",
+		"ils/elles" : "risquent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vConcerner = {
 //verb info
@@ -3140,6 +5753,130 @@ const vConcerner = {
 	ending : "-er",
 	base : "",
 	definition : "to concern",	
+//tenses
+	present : {
+		je : "concerne",
+		tu : "concernes",
+		"il/elle/on" : "concerne",
+		nous : "concernons",
+		vous : "concernez",
+		"ils/elles" : "concernent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vRencontrer = {
 //verb info
@@ -3149,6 +5886,130 @@ const vRencontrer = {
 	ending : "-er",
 	base : "",
 	definition : "to meet, to encounter",	
+//tenses
+	present : {
+		je : "rencontre",
+		tu : "rencontres",
+		"il/elle/on" : "rencontre",
+		nous : "rencontrons",
+		vous : "rencontrez",
+		"ils/elles" : "rencontrent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vCreer = {
 	//verb info
@@ -3157,7 +6018,131 @@ const vCreer = {
 	reflexivity : "not reflexive",
 	ending : "-er",
 	base : "",
-	definition : "to create",	
+	definition : "to create",
+//tenses
+	present : {
+		je : "réussis",
+		tu : "réussis",
+		"il/elle/on" : "réussit",
+		nous : "réussissons",
+		vous : "réussissez",
+		"ils/elles" : "réussissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},	
 }
 const vChercer = {
 //verb info
@@ -3167,6 +6152,130 @@ const vChercer = {
 	ending : "-er",
 	base : "",
 	definition : "to look, to seek",	
+//tenses
+	present : {
+		je : "cherche",
+		tu : "cherches",
+		"il/elle/on" : "cherche",
+		nous : "cherchons",
+		vous : "cherchez",
+		"ils/elles" : "cherchent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vEntrer = {
 //verb info
@@ -3176,6 +6285,130 @@ const vEntrer = {
 	ending : "-er",
 	base : "",
 	definition : "to enter",	
+//tenses
+	present : {
+		je : "'entre",
+		tu : "entres",
+		"il/elle/on" : "entre",
+		nous : "entrons",
+		vous : "entrez",
+		"ils/elles" : "entrent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vProposer = {
 //verb info
@@ -3185,6 +6418,130 @@ const vProposer = {
 	ending : "-er",
 	base : "",
 	definition : "to suggest, to propose",	
+//tenses
+	present : {
+		je : "propose",
+		tu : "proposes",
+		"il/elle/on" : "propose",
+		nous : "proposons",
+		vous : "proposez",
+		"ils/elles" : "proposent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vApporter = {
 //verb info
@@ -3194,6 +6551,130 @@ const vApporter = {
 	ending : "-er",
 	base : "",
 	definition : "to cause, to bring",	
+//tenses
+	present : {
+		je : "'apporte",
+		tu : "apportes",
+		"il/elle/on" : "apporte",
+		nous : "apportons",
+		vous : "apportez",
+		"ils/elles" : "apportent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vUtiliser = {
 //verb info
@@ -3202,7 +6683,131 @@ const vUtiliser = {
 	reflexivity : "not reflexive",
 	ending : "-er",
 	base : "",
-	definition : "to use",	
+	definition : "to use",
+//tenses
+	present : {
+		je : "'utilise",
+		tu : "utilises",
+		"il/elle/on" : "utilise",
+		nous : "utilisons",
+		vous : "utilisez",
+		"ils/elles" : "utilisent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},	
 }
 const vTenter = {
 //verb info
@@ -3212,6 +6817,130 @@ const vTenter = {
 	ending : "-er",
 	base : "",
 	definition : "to tempt",	
+//tenses
+	present : {
+		je : "tente",
+		tu : "tentes",
+		"il/elle/on" : "tente",
+		nous : "tentons",
+		vous : "tentez",
+		"ils/elles" : "tentent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vImporter = {
 //verb info
@@ -3221,6 +6950,130 @@ const vImporter = {
 	ending : "-er",
 	base : "",
 	definition : "to matter",	
+//tenses
+	present : {
+		je : "'importe",
+		tu : "importes",
+		"il/elle/on" : "importe",
+		nous : "importons",
+		vous : "importez",
+		"ils/elles" : "importent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vAjouter = {
 //verb info
@@ -3229,7 +7082,131 @@ const vAjouter = {
 	reflexivity : "not reflexive",
 	ending : "-er",
 	base : "",
-	definition : "to add",	
+	definition : "to add",
+//tenses
+	present : {
+		je : "'ajoute",
+		tu : "ajoutes",
+		"il/elle/on" : "ajoute",
+		nous : "ajoutons",
+		vous : "ajoutez",
+		"ils/elles" : "ajoutent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},	
 }
 const vPreparer= {
 //verb info
@@ -3239,6 +7216,130 @@ const vPreparer= {
 	ending : "-er",
 	base : "",
 	definition : "to prepare",	
+//tenses
+	present : {
+		je : "réussis",
+		tu : "réussis",
+		"il/elle/on" : "réussit",
+		nous : "réussissons",
+		vous : "réussissez",
+		"ils/elles" : "réussissent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vRelever = {
 //verb info
@@ -3248,6 +7349,130 @@ const vRelever = {
 	ending : "-er",
 	base : "",
 	definition : "to raise, to pick up",	
+//tenses
+	present : {
+		je : "relevewrong",
+		tu : "releves",
+		"il/elle/on" : "releve",
+		nous : "relevons",
+		vous : "relevez",
+		"ils/elles" : "relevent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 const vTirer = {
 //verb info
@@ -3257,6 +7482,130 @@ const vTirer = {
 	ending : "-er",
 	base : "",
 	definition : "to pull, to print, to fire",	
+//tenses
+	present : {
+		je : "tire",
+		tu : "tires",
+		"il/elle/on" : "tire",
+		nous : "tirons",
+		vous : "tirez",
+		"ils/elles" : "tirent" },
+	passeSimple : {
+		je : "descendis",
+		tu : "descendis",
+		"il/elle/on" : "descendit",
+		nous : "descendîmes",
+		vous : "descendîtes",
+		"ils/elles" : "descendirent"},
+	imparfait : {
+		je : "descendais",
+		tu : "descendais",
+		"il/elle/on" : "descendait",
+		nous : "descendions",
+		vous : "descendiez",
+		"ils/elles" : "descendaient"},
+	futurSimple : {
+		je : "descendrai",
+		tu : "descendras",
+		"il/elle/on" : "descendra",
+		nous : "descendrons",
+		vous : "descendrez",
+		"ils/elles" : "descendront"},
+//compound tenses
+	passeCompose : {
+		je : "suis descendu(e)",
+		tu : "es descendu(e)",
+		"il/elle/on" : "est descendu(e)",
+		nous : "sommes descendu(e)s",
+		vous : "êtes descendu(e)(s)",
+		"ils/elles" : "sont descendu(e)s"},
+	plusQueParfait : {
+		je : "'étais descendu(e)",
+		tu : "étais descendu(e)",
+		"il/elle/on" : "était descendu(e)",
+		nous : "étions descendu(e)s",
+		vous : "étiez descendu(e)(s)",
+		"ils/elles" : "étaient descendu(e)s"},
+	passeAnterieur : {
+		je : "fus descendu(e)",
+		tu : "fus descendu(e)",
+		"il/elle/on" : "fut descendu(e)",
+		nous : "fûmes descendu(e)s",
+		vous : "fûtes descendu(e)(s)",
+		"ils/elles" : "furent descendu(e)s"},
+	futurAnterieur : {
+		je : "serai descendu(e)",
+		tu : "seras descendu(e)",
+		"il/elle/on" : "sera descendu(e)",
+		nous : "serons descendu(e)s",
+		vous : "serez descendu(e)(s)",
+		"ils/elles" : "seront descendu(e)s"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "descende",
+		"que tu" : "descendes",
+		"qu'il/elle/on" : "descende",
+		"que nous" : "descendions",
+		"que vous" : "descendiez",
+		"qu'ils/elles" : "descendent"},
+	imparfaitSubjonctif : {
+		"que je" : "descendisse",
+		"que tu" : "descendisses",
+		"qu'il/elle/on" : "descendît",
+		"que nous" : "descendissions",
+		"que vous" : "descendissiez",
+		"qu'ils/elles" : "descendissent"},
+	passeSubjonctif : {
+		"que je" : "sois descendu(e)",
+		"que tu" : "sois descendu(e)",
+		"qu'il/elle/on" : "soit descendu(e)",
+		"que nous" : "soyons descendu(e)s",
+		"que vous" : "soyez descendu(e)(s)",
+		"qu'ils/elles" : "soient descendu(e)s"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "fusse descendu(e)",
+		"que tu" : "fusses descendu(e)",
+		"qu'il/elle/on" : "fût descendu(e)",
+		"que nous" : "fussions descendu(e)s",
+		"que vous" : "fussiez descendu(e)(s)",
+		"qu'ils/elles" : "fussent descendu(e)s"},
+//conditionnel
+	presentConditionmel : {
+		je : "descendrais",
+		tu : "descendrais",
+		"il/elle/on" : "descendrait",
+		nous : "descendrions",
+		vous : "descendriez",
+		"ils/elles" : "descendraient"},
+	passeConditionnel : {
+		je : "serais descendu(e)",
+		tu : "serais descendu(e)",
+		"il/elle/on" : "serait descendu(e)",
+		nous : "serions descendu(e)s",
+		vous : "seriez descendu(e)(s)",
+		"ils/elles" : "seraient descendu(e)s"},
+	passe2Conditionnel : {
+		je : "fusse descendu(e)",
+		tu : "fusses descendu(e)",
+		"il/elle/on" : "fût descendu(e)",
+		nous : "fussions descendu(e)s",
+		vous : "fussiez descendu(e)(s)",
+		"ils/elles" : "fussent descendu(e)s"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "descends",
+		"il/elle/on" : "",
+		nous : "descendons",
+		vous : "descendez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "sois descendu(e)",
+		"il/elle/on" : "",
+		nous : "soyons descendu(e)s",
+		vous : "soyez descendu(e)(s)",
+		"ils/elles" : ""},
 }
 //irregular verbs
 
@@ -3938,12 +8287,12 @@ const vPouvoir = {
 	definition : "to be able",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "peux",
+		tu : "peux",
+		"il/elle/on" : "peut",
+		nous : "pouvons",
+		vous : "pouvez",
+		"ils/elles" : "peuvent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -4071,12 +8420,12 @@ const vMettre = {
 	definition : "to put",	
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "mets",
+		tu : "mets",
+		"il/elle/on" : "met",
+		nous : "mettons",
+		vous : "mettez",
+		"ils/elles" : "mettent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -4204,12 +8553,12 @@ const vDire = {
 	definition : "to say",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "dis",
+		tu : "dis",
+		"il/elle/on" : "dit",
+		nous : "disons",
+		vous : "dites",
+		"ils/elles" : "dissent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -4337,12 +8686,12 @@ const vDevoir = {
 	definition : "to have to",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "dois",
+		tu : "dois",
+		"il/elle/on" : "doit",
+		nous : "devons",
+		vous : "devez",
+		"ils/elles" : "doivent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -4470,12 +8819,12 @@ const vVouloir = {
 	definition : "to want",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "veux",
+		tu : "veux",
+		"il/elle/on" : "veut",
+		nous : "voulons",
+		vous : "voulez",
+		"ils/elles" : "veulent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -4603,12 +8952,12 @@ const vSavoir = {
 	definition : "to know",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "sais",
+		tu : "sais",
+		"il/elle/on" : "sait",
+		nous : "savons",
+		vous : "savez",
+		"ils/elles" : "savent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -4736,12 +9085,12 @@ const vFalloir = {
 	definition : "to have to",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "",
+		tu : "",
+		"il/elle/on" : "faut",
+		nous : "",
+		vous : "",
+		"ils/elles" : ""},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -4869,12 +9218,12 @@ const vVoir = {
 	definition : "to see",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "vois",
+		tu : "vois",
+		"il/elle/on" : "voit",
+		nous : "voyons",
+		vous : "voyez",
+		"ils/elles" : "voient"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5002,12 +9351,12 @@ const vRendre = {
 	definition : "to return something",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "rends",
+		tu : "rends",
+		"il/elle/on" : "rend",
+		nous : "rendons",
+		vous : "rendez",
+		"ils/elles" : "rendent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5135,12 +9484,12 @@ const vVenir = {
 	definition : "to come",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "viens",
+		tu : "viens",
+		"il/elle/on" : "vien",
+		nous : "venons",
+		vous : "venez",
+		"ils/elles" : "viennent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5268,12 +9617,12 @@ const vComprendre = {
 	definition : "to comprehend",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "comprends",
+		tu : "comprends",
+		"il/elle/on" : "comprend",
+		nous : "comprenons",
+		vous : "comprenez",
+		"ils/elles" : "comprennent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5401,12 +9750,12 @@ const vTenir = {
 	definition : "to keep, to hold",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "tiens",
+		tu : "tiens",
+		"il/elle/on" : "tient",
+		nous : "tenons",
+		vous : "tenez",
+		"ils/elles" : "tiennent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5534,12 +9883,12 @@ const vSuivre = {
 	definition : "to follow, to pay attention",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "suis",
+		tu : "suis",
+		"il/elle/on" : "suit",
+		nous : "suivons",
+		vous : "suivez",
+		"ils/elles" : "suivent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5667,12 +10016,12 @@ const vConnaitre = {
 	definition : "to know, to be acquainted with",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
+		je : "connais",
+		tu : "connais",
 		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		nous : "connaissons",
+		vous : "connaissez",
+		"ils/elles" : "connaissent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5797,15 +10146,15 @@ const vCroire = {
 	reflexivity : "not reflexive",
 	ending : "-re",
 	base : "",
-	definition : "to kbelieve",
+	definition : "to believe",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "crois",
+		tu : "crois",
+		"il/elle/on" : "croit",
+		nous : "croyons",
+		vous : "croyez",
+		"ils/elles" : "croient"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -5933,12 +10282,12 @@ const vEntendre = {
 	definition : "to understand, to hear",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "entends",
+		tu : "entends",
+		"il/elle/on" : "entend",
+		nous : "entendons",
+		vous : "entendez",
+		"ils/elles" : "entendent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6066,12 +10415,12 @@ const vAttendre = {
 	definition : "to wait, to expect",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "attends",
+		tu : "attends",
+		"il/elle/on" : "attends",
+		nous : "attendons",
+		vous : "attendez",
+		"ils/elles" : "attendent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6199,12 +10548,12 @@ const vRemettre = {
 	definition : "to replace, to put back",
 	//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "remets",
+		tu : "remets",
+		"il/elle/on" : "remet",
+		nous : "remettons",
+		vous : "remettez",
+		"ils/elles" : "remettent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6330,14 +10679,14 @@ const vAppeler = {
 	ending : "-er",
 	base : "",
 	definition : "to call",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "appelle",
+		tu : "appelles",
+		"il/elle/on" : "appelle",
+		nous : "appelons",
+		vous : "appelez",
+		"ils/elles" : "appellent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6463,14 +10812,14 @@ const vPermettre = {
 	ending : "-re",
 	base : "",
 	definition : "to permit",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "permets",
+		tu : "permets",
+		"il/elle/on" : "permet",
+		nous : "permettons",
+		vous : "permettez",
+		"ils/elles" : "permettent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6596,14 +10945,14 @@ const vDevenir = {
 	ending : "-ir",
 	base : "",
 	definition : "to become",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "deviens",
+		tu : "deviens",
+		"il/elle/on" : "devient",
+		nous : "devenons",
+		vous : "devenez",
+		"ils/elles" : "deviennent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6729,14 +11078,14 @@ const vPartir = {
 	ending : "-ir",
 	base : "",
 	definition : "to leave",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "pars",
+		tu : "pars",
+		"il/elle/on" : "part",
+		nous : "partons",
+		vous : "partez",
+		"ils/elles" : "partent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6862,14 +11211,14 @@ const vServir = {
 	ending : "-ir",
 	base : "",
 	definition : "to serve",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "sers",
+		tu : "sers",
+		"il/elle/on" : "sert",
+		nous : "servons",
+		vous : "servez",
+		"ils/elles" : "servent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -6995,14 +11344,14 @@ const vRevenir = {
 	ending : "-ir",
 	base : "",
 	definition : "to return",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "reviens",
+		tu : "reviens",
+		"il/elle/on" : "revient",
+		nous : "revenons",
+		vous : "revenez",
+		"ils/elles" : "reviennent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -7128,14 +11477,14 @@ const vRecevoir = {
 	ending : "-oir",
 	base : "",
 	definition : "to receive",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "reçois",
+		tu : "reçois",
+		"il/elle/on" : "reçoit",
+		nous : "recevons",
+		vous : "recevez",
+		"ils/elles" : "reçoivent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -7261,7 +11610,7 @@ const vRepondre = {
 	ending : "-re",
 	base : "",
 	definition : "to answer",
-	//tenses
+//tenses
 	present : {
 		je : "fais",
 		tu : "fais",
@@ -7394,14 +11743,14 @@ const vVivre = {
 	ending : "-re",
 	base : "",
 	definition : "to live",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "vis",
+		tu : "vis",
+		"il/elle/on" : "vit",
+		nous : "vivons",
+		vous : "vivez",
+		"ils/elles" : "vivent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -7527,14 +11876,14 @@ const vRappeler = {
 	ending : "-er",
 	base : "",
 	definition : "to call back, to remind",
-	//tenses
+//tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "rappelle",
+		tu : "rappelles",
+		"il/elle/on" : "rappelle",
+		nous : "rappelons",
+		vous : "rappelez",
+		"ils/elles" : "rappellent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -7660,6 +12009,130 @@ const vReconnaitre ={
 	ending : "-re",
 	base : "",
 	definition : "to recognize, to acknowledge",
+//tenses
+	present : {
+		je : "reconnais",
+		tu : "reconnais",
+		"il/elle/on" : "rappelle",
+		nous : "reconnaissons",
+		vous : "reconnaissez",
+		"ils/elles" : "reconnaissent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vPerdre = {
 //verb info
@@ -7669,16 +12142,264 @@ const vPerdre = {
 	ending : "-re",
 	base : "",
 	definition : "to lose",
+//tenses
+	present : {
+		je : "perds",
+		tu : "perds",
+		"il/elle/on" : "perd",
+		nous : "perdons",
+		vous : "perdez",
+		"ils/elles" : "perdent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 
 const vOuvrir = {
-	//verb info
-		verb : "ouvrir",
-		regularity : "irregular",
-		reflexivity : "not reflexive",
-		ending : "-ir",
-		base : "",
-		definition : "to open",
+//verb info
+	verb : "ouvrir",
+	regularity : "irregular",
+	reflexivity : "not reflexive",
+	ending : "-ir",
+	base : "",
+	definition : "to open",
+//tenses
+	present : {
+		je : "ouvre",
+		tu : "ouvres",
+		"il/elle/on" : "ouvre",
+		nous : "ouvrons",
+		vous : "ouvrez",
+		"ils/elles" : "ouvrent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 	}
 const vLire = {
 //verb info
@@ -7688,6 +12409,130 @@ const vLire = {
 	ending : "-re",
 	base : "",
 	definition : "to read",
+//tenses
+	present : {
+		je : "lis",
+		tu : "lis",
+		"il/elle/on" : "lit",
+		nous : "lissons",
+		vous : "lisez",
+		"ils/elles" : "lisent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 
 const vSortir = {
@@ -7698,6 +12543,130 @@ const vSortir = {
 	ending : "-ir",
 	base : "",
 	definition : "to go out, to exit",	
+//tenses
+	present : {
+		je : "sors",
+		tu : "sors",
+		"il/elle/on" : "sort",
+		nous : "sortons",
+		vous : "sortez",
+		"ils/elles" : "sortent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vReprendre = {
 //verb info
@@ -7707,6 +12676,130 @@ const vReprendre = {
 	ending : "-re",
 	base : "",
 	definition : "to resume, to take back",
+//tenses
+	present : {
+		je : "reprends",
+		tu : "reprends",
+		"il/elle/on" : "reprend",
+		nous : "reprenons",
+		vous : "reprenez",
+		"ils/elles" : "reprennent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vAppartenir = {
 //verb info
@@ -7716,6 +12809,130 @@ const vAppartenir = {
 	ending : "-ir",
 	base : "",
 	definition : "to belong",
+//tenses
+	present : {
+		je : "appartiens",
+		tu : "appartiens",
+		"il/elle/on" : "appartient",
+		nous : "appartenons",
+		vous : "appartenez",
+		"ils/elles" : "appartiennent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vApprendre = {
 //verb info
@@ -7725,6 +12942,130 @@ const vApprendre = {
 	ending : "-re",
 	base : "",
 	definition : "to learn",
+//tenses
+	present : {
+		je : "apprends",
+		tu : "apprends",
+		"il/elle/on" : "apprend",
+		nous : "apprenons",
+		vous : "apprenez",
+		"ils/elles" : "apprennent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vObtenir = {
 //verb info
@@ -7734,6 +13075,130 @@ const vObtenir = {
 	ending : "-ir",
 	base : "",
 	definition : "to obtain",
+//tenses
+	present : {
+		je : "obtiens",
+		tu : "obtiens",
+		"il/elle/on" : "obtient",
+		nous : "obtenons",
+		vous : "obtenez",
+		"ils/elles" : "obtiennent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vAtteindre = {
 //verb info
@@ -7743,6 +13208,130 @@ const vAtteindre = {
 	ending : "-re",
 	base : "",
 	definition : "to attain, to reach",
+//tenses
+	present : {
+		je : "atteins",
+		tu : "atteins",
+		"il/elle/on" : "atteint",
+		nous : "atteignons",
+		vous : "atteignez",
+		"ils/elles" : "atteignent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vProduire = {
 //verb info
@@ -7752,6 +13341,130 @@ const vProduire = {
 	ending : "-re",
 	base : "",
 	definition : "to produce",
+//tenses
+	present : {
+		je : "produis",
+		tu : "produis",
+		"il/elle/on" : "produit",
+		nous : "produisons",
+		vous : "produisez",
+		"ils/elles" : "produisent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vEcrire = {
 //verb info
@@ -7761,6 +13474,130 @@ const vEcrire = {
 	ending : "-re",
 	base : "",
 	definition : "to write",
+//tenses
+	present : {
+		je : "rappelle",
+		tu : "rappelles",
+		"il/elle/on" : "rappelle",
+		nous : "rappelons",
+		vous : "rappelez",
+		"ils/elles" : "rappellent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+	//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 const vDefendre = {
 //verb info
@@ -7770,6 +13607,130 @@ const vDefendre = {
 	ending : "-re",
 	base : "",
 	definition : "to defend",
+//tenses
+	present : {
+		je : "rappelle",
+		tu : "rappelles",
+		"il/elle/on" : "rappelle",
+		nous : "rappelons",
+		vous : "rappelez",
+		"ils/elles" : "rappellent"},
+	passeSimple : {
+		je : "fis",
+		tu : "fis",
+		"il/elle/on" : "fit",
+		nous : "fîmes",
+		vous : "fîtes",
+		"ils/elles" : "firent"},
+	imparfait : {
+		je : "faisais",
+		tu : "faisais",
+		"il/elle/on" : "faisait",
+		nous : "faisions",
+		vous : "faisiez",
+		"ils/elles" : "faisaient"},
+	futurSimple : {
+		je : "ferai",
+		tu : "feras",
+		"il/elle/on" : "fera",
+		nous : "ferons",
+		vous : "ferez",
+		"ils/elles" : "feront"},
+//compound tenses
+	passeCompose : {
+		je : "'ai fait",
+		tu : "as fait",
+		"il/elle/on" : "a fait",
+		nous : "avons fait",
+		vous : "avez fait",
+		"ils/elles" : "ont fait"},
+	plusQueParfait : {
+		je : "'avais fait",
+		tu : "avais fait",
+		"il/elle/on" : "avait fait",
+		nous : "avions fait",
+		vous : "aviez fait",
+		"ils/elles" : "avaient fait"},
+	passeAnterieur : {
+		je : "'eus fait",
+		tu : "eus fait",
+		"il/elle/on" : "eut fait",
+		nous : "eûmes fait",
+		vous : "eûtes fait",
+		"ils/elles" : "eurent fait"},
+	futurAnterieur : {
+		je : "'aurai fait",
+		tu : "auras fait",
+		"il/elle/on" : "aura fait",
+		nous : "aurons fait",
+		vous : "aurez fait",
+		"ils/elles" : "auront fait"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "fasse",
+		"que tu" : "fasses",
+		"qu'il/elle/on" : "fasse",
+		"que nous" : "fassions",
+		"que vous" : "fassiez",
+		"qu'ils/elles" : "fassent"},
+	imparfaitSubjonctif : {
+		"que je" : "fisse",
+		"que tu" : "fisses",
+		"qu'il/elle/on" : "fît",
+		"que nous" : "fissions",
+		"que vous" : "fissiez",
+		"qu'ils/elles" : "fissent"},
+	passeSubjonctif : {
+		"que je" : "'aie fait",
+		"que tu" : "aies fait",
+		"qu'il/elle/on" : "ait fait",
+		"que nous" : "ayons fait",
+		"que vous" : "ayez fait",
+		"qu'ils/elles" : "aient fait"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse fait",
+		"que tu" : "eusses fait",
+		"qu'il/elle/on" : "eût fait",
+		"que nous" : "eussions fait",
+		"que vous" : "eussiez fait",
+		"qu'ils/elles" : "eussent fait"},
+//conditionnel
+	presentConditionmel : {
+		je : "ferais",
+		tu : "ferais",
+		"il/elle/on" : "ferait",
+		nous : "ferions",
+		vous : "feriez",
+		"ils/elles" : "feraient"},
+	passeConditionnel : {
+		je : "'aurais fait",
+		tu : "aurais fait",
+		"il/elle/on" : "aurait fait",
+		nous : "aurions fait",
+		vous : "auriez fait",
+		"ils/elles" : "auraient fait"},
+	passe2Conditionnel : {
+		je : "'eusse fait",
+		tu : "eusses fait",
+		"il/elle/on" : "eût fait",
+		nous : "eussions fait",
+		vous : "eussiez fait",
+		"ils/elles" : "eussent fait"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "fais",
+		"il/elle/on" : "",
+		nous : "faisons",
+		vous : "faites",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie fait",
+		"il/elle/on" : "",
+		nous : "ayons fait",
+		vous : "ayez fait",
+		"ils/elles" : ""},
 }
 //add all verbs to an array
 let allVerbs = new Array(vAimer, vAller, vAvoir, vDescendre, vEtre, vEtudier, vFaire,

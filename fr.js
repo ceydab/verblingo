@@ -5356,12 +5356,12 @@ const vEmpecher = {
 	definition : "to prevent",
 //tenses
 	present : {
-		je : "réussis",
-		tu : "réussis",
-		"il/elle/on" : "réussit",
-		nous : "réussissons",
-		vous : "réussissez",
-		"ils/elles" : "réussissent" },
+		je : "empêche",
+		tu : "empêches",
+		"il/elle/on" : "empêche",
+		nous : "empêchons",
+		vous : "empêchez",
+		"ils/elles" : "empêchent" },
 	passeSimple : {
 		je : "descendis",
 		tu : "descendis",
@@ -5489,12 +5489,12 @@ const vMener = {
 	definition : "to lead, to conduct",	
 //tenses
 	present : {
-		je : "réussis",
-		tu : "réussis",
-		"il/elle/on" : "réussit",
-		nous : "réussissons",
-		vous : "réussissez",
-		"ils/elles" : "réussissent" },
+		je : "mène",
+		tu : "mènes",
+		"il/elle/on" : "mène",
+		nous : "menons",
+		vous : "menez",
+		"ils/elles" : "mènent" },
 	passeSimple : {
 		je : "descendis",
 		tu : "descendis",
@@ -7218,12 +7218,12 @@ const vPreparer= {
 	definition : "to prepare",	
 //tenses
 	present : {
-		je : "réussis",
-		tu : "réussis",
-		"il/elle/on" : "réussit",
-		nous : "réussissons",
-		vous : "réussissez",
-		"ils/elles" : "réussissent" },
+		je : "prépare",
+		tu : "prépares",
+		"il/elle/on" : "prépare",
+		nous : "préparons",
+		vous : "préparez",
+		"ils/elles" : "préparent" },
 	passeSimple : {
 		je : "descendis",
 		tu : "descendis",
@@ -10018,7 +10018,7 @@ const vConnaitre = {
 	present : {
 		je : "connais",
 		tu : "connais",
-		"il/elle/on" : "fait",
+		"il/elle/on" : "connaît",
 		nous : "connaissons",
 		vous : "connaissez",
 		"ils/elles" : "connaissent"},
@@ -11612,12 +11612,12 @@ const vRepondre = {
 	definition : "to answer",
 //tenses
 	present : {
-		je : "fais",
-		tu : "fais",
-		"il/elle/on" : "fait",
-		nous : "faitons",
-		vous : "faites",
-		"ils/elles" : "font"},
+		je : "réponds",
+		tu : "réponds",
+		"il/elle/on" : "répond",
+		nous : "répondons",
+		vous : "répondez",
+		"ils/elles" : "répondent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -12013,7 +12013,7 @@ const vReconnaitre ={
 	present : {
 		je : "reconnais",
 		tu : "reconnais",
-		"il/elle/on" : "rappelle",
+		"il/elle/on" : "reconnaît",
 		nous : "reconnaissons",
 		vous : "reconnaissez",
 		"ils/elles" : "reconnaissent"},
@@ -13476,12 +13476,12 @@ const vEcrire = {
 	definition : "to write",
 //tenses
 	present : {
-		je : "rappelle",
-		tu : "rappelles",
-		"il/elle/on" : "rappelle",
-		nous : "rappelons",
-		vous : "rappelez",
-		"ils/elles" : "rappellent"},
+		je : "'écris",
+		tu : "écris",
+		"il/elle/on" : "écrit",
+		nous : "écrivons",
+		vous : "écrivez",
+		"ils/elles" : "écrivent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",
@@ -13609,12 +13609,12 @@ const vDefendre = {
 	definition : "to defend",
 //tenses
 	present : {
-		je : "rappelle",
-		tu : "rappelles",
-		"il/elle/on" : "rappelle",
-		nous : "rappelons",
-		vous : "rappelez",
-		"ils/elles" : "rappellent"},
+		je : "défends",
+		tu : "défends",
+		"il/elle/on" : "défend",
+		nous : "défendons",
+		vous : "défendez",
+		"ils/elles" : "défendent"},
 	passeSimple : {
 		je : "fis",
 		tu : "fis",

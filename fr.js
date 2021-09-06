@@ -1,7 +1,7 @@
 // JavaScript Document
 
 ///oir controlu unutma
-
+//git deneme
 
 console.log("denem")
 
@@ -2553,12 +2553,12 @@ const vSembler = {
 	definition : "to seem",
 	//tenses
 	present : {
-		je : "mange",
-		tu : "manges",
-		"il/elle/on" : "mange",
-		nous : "mangeons",
-		vous : "mangez",
-		"ils/elles" : "mangent"},	
+		je : "semble",
+		tu : "sembles",
+		"il/elle/on" : "semble",
+		nous : "semblons",
+		vous : "semblez",
+		"ils/elles" : "semblent"},	
 	passeSimple : {
 		je : "mangeai",
 		tu : "mangeas",
@@ -2686,12 +2686,12 @@ const vLaisser = {
 	definition : "to leave, to let",
 	//tenses
 	present : {
-		je : "mange",
-		tu : "manges",
-		"il/elle/on" : "mange",
-		nous : "mangeons",
-		vous : "mangez",
-		"ils/elles" : "mangent"},	
+		je : "laisse",
+		tu : "laisses",
+		"il/elle/on" : "laisses",
+		nous : "laissons",
+		vous : "laissez",
+		"ils/elles" : "laissent"},	
 	passeSimple : {
 		je : "mangeai",
 		tu : "mangeas",
@@ -2817,6 +2817,130 @@ const vPresenter = {
 	ending : "-er",
 	base : "",
 	definition : "to present",
+//tenses
+	present : {
+		je : "présente",
+		tu : "présentes",
+		"il/elle/on" : "présente",
+		nous : "présentons",
+		vous : "présentez",
+		"ils/elles" : "présentent"},	
+	passeSimple : {
+		je : "mangeai",
+		tu : "mangeas",
+		"il/elle/on" : "mangea",
+		nous : "mangeâmes",
+		vous : "mangeâtes",
+		"ils/elles" : "mangèrent"},
+	imparfait : {
+		je : "mangeais",
+		tu : "mangeais",
+		"il/elle/on" : "mangeait",
+		nous : "mangions",
+		vous : "mangiez",
+		"ils/elles" : "mangeaient"},
+	futurSimple : {
+		je : "mangerai",
+		tu : "mangeras",
+		"il/elle/on" : "mangera",
+		nous : "mangerons",
+		vous : "mangerez",
+		"ils/elles" : "mangeront"},
+	//compound tenses
+	passeCompose : {
+		je : "'ai mangé",
+		tu : "as mangé",
+		"il/elle/on" : "a mangé",
+		nous : "avons mangé",
+		vous : "avez mangé",
+		"ils/elles" : "ont mangé"},
+	plusQueParfait : {
+		je : "'avais mangé",
+		tu : "avais mangé",
+		"il/elle/on" : "avait mangé",
+		nous : "avions mangé",
+		vous : "aviez mangé",
+		"ils/elles" : "avaient mangé"},
+	passeAnterieur : {
+		je : "'eus mangé",
+		tu : "eus mangé",
+		"il/elle/on" : "eut mangé",
+		nous : "eûmes mangé",
+		vous : "eûtes mangé",
+		"ils/elles" : "eurent mangé"},
+	futurAnterieur : {
+		je : "'aurai mangé",
+		tu : "auras mangé",
+		"il/elle/on" : "aura mangé",
+		nous : "aurons mangé",
+		vous : "aurez mangé",
+		"ils/elles" : "auront mangé"},
+//subjuntive
+	presentSubjonctif : {
+		"que je" : "mange",
+		"que tu" : "manges",
+		"qu'il/elle/on" : "mange",
+		"que nous" : "mangions",
+		"que vous" : "mangiez",
+		"qu'ils/elles" : "mangent"},
+	imparfaitSubjonctif : {
+		"que je" : "mangeasse",
+		"que tu" : "mangeasses",
+		"qu'il/elle/on" : "mangeât",
+		"que nous" : "mangeassions",
+		"que vous" : "mangeassiez",
+		"qu'ils/elles" : "mangeassent"},
+	passeSubjonctif : {
+		"que je" : "'aie mangé",
+		"que tu" : "aies mangé",
+		"qu'il/elle/on" : "ait mangé",
+		"que nous" : "ayons mangé",
+		"que vous" : "ayez mangé",
+		"qu'ils/elles" : "aient mangé"},
+	plusQueParfaitSubjonctif : {
+		"que je" : "'eusse mangé",
+		"que tu" : "eusses mangé",
+		"qu'il/elle/on" : "eût mangé",
+		"que nous" : "eussions mangé",
+		"que vous" : "eussiez mangé",
+		"qu'ils/elles" : "eussent mangé"},
+//conditionnel
+	presentConditionmel : {
+		je : "mangerais",
+		tu : "mangerais",
+		"il/elle/on" : "mangerait",
+		nous : "mangerions",
+		vous : "mangeriez",
+		"ils/elles" : "mangeraient"},
+	passeConditionnel : {
+		je : "'aurais mangé",
+		tu : "aurais mangé",
+		"il/elle/on" : "aurait mangé",
+		nous : "aurions mangé",
+		vous : "auriez mangé",
+		"ils/elles" : "auraient mangé"},
+	passe2Conditionnel : {
+		je : "'eusse mangé",
+		tu : "eusses mangé",
+		"il/elle/on" : "eût mangé",
+		nous : "eussions mangé",
+		vous : "eussiez mangé",
+		"ils/elles" : "eussent mangé"},
+//imperative
+	presentImperatif : {
+		je: "",
+		tu : "mange",
+		"il/elle/on" : "",
+		nous : "mangeons",
+		vous : "mangez",
+		"ils/elles" : ""},
+	passeImperatif : {
+		je: "",
+		tu : "aie mangé",
+		"il/elle/on" : "",
+		nous : "ayons mangé",
+		vous : "ayez mangé",
+		"ils/elles" : ""},
 }
 const vAccepter = {
 //verb info

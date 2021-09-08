@@ -1,7 +1,7 @@
 // JavaScript Document
 
 ///oir controlu unutma
-//git deneme
+//essayerden devam
 
 console.log("denem")
 
@@ -1510,7 +1510,7 @@ const vMontrer = {
 		vous : "mangiez",
 		"ils/elles" : "mangeaient"},
 	futurSimple : {
-		je : "monterai",
+		je : "montrerai",
 		tu : "montreras",
 		"il/elle/on" : "montrera",
 		nous : "montrerons",
@@ -2574,12 +2574,12 @@ const vSembler = {
 		vous : "mangiez",
 		"ils/elles" : "mangeaient"},
 	futurSimple : {
-		je : "mangerai",
-		tu : "mangeras",
-		"il/elle/on" : "mangera",
-		nous : "mangerons",
-		vous : "mangerez",
-		"ils/elles" : "mangeront"},
+		je : "semblerai",
+		tu : "sembleras",
+		"il/elle/on" : "semblera",
+		nous : "semblerons",
+		vous : "semblerez",
+		"ils/elles" : "sembleront"},
 	//compound tenses
 	passeCompose : {
 		je : "'ai mangé",
@@ -2640,12 +2640,12 @@ const vSembler = {
 		"qu'ils/elles" : "eussent mangé"},
 //conditionnel
 	presentConditionmel : {
-		je : "mangerais",
-		tu : "mangerais",
-		"il/elle/on" : "mangerait",
-		nous : "mangerions",
-		vous : "mangeriez",
-		"ils/elles" : "mangeraient"},
+		je : "semblerais",
+		tu : "semblerais",
+		"il/elle/on" : "sembkerait",
+		nous : "semblerions",
+		vous : "sembleriez",
+		"ils/elles" : "sembleraient"},
 	passeConditionnel : {
 		je : "'aurais mangé",
 		tu : "aurais mangé",
@@ -2663,10 +2663,10 @@ const vSembler = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "mange",
+		tu : "semble",
 		"il/elle/on" : "",
-		nous : "mangeons",
-		vous : "mangez",
+		nous : "semblons",
+		vous : "semblez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -2707,12 +2707,12 @@ const vLaisser = {
 		vous : "mangiez",
 		"ils/elles" : "mangeaient"},
 	futurSimple : {
-		je : "mangerai",
-		tu : "mangeras",
-		"il/elle/on" : "mangera",
-		nous : "mangerons",
-		vous : "mangerez",
-		"ils/elles" : "mangeront"},
+		je : "laisserai",
+		tu : "laisseras",
+		"il/elle/on" : "laissera",
+		nous : "laisserons",
+		vous : "laisserez",
+		"ils/elles" : "laisseront"},
 	//compound tenses
 	passeCompose : {
 		je : "'ai mangé",
@@ -2773,12 +2773,12 @@ const vLaisser = {
 		"qu'ils/elles" : "eussent mangé"},
 //conditionnel
 	presentConditionmel : {
-		je : "mangerais",
-		tu : "mangerais",
-		"il/elle/on" : "mangerait",
-		nous : "mangerions",
-		vous : "mangeriez",
-		"ils/elles" : "mangeraient"},
+		je : "laisserais",
+		tu : "laisserais",
+		"il/elle/on" : "laisserait",
+		nous : "laisserions",
+		vous : "laisseriez",
+		"ils/elles" : "laisseraient"},
 	passeConditionnel : {
 		je : "'aurais mangé",
 		tu : "aurais mangé",
@@ -2796,10 +2796,10 @@ const vLaisser = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "mange",
+		tu : "laisse",
 		"il/elle/on" : "",
-		nous : "mangeons",
-		vous : "mangez",
+		nous : "laissons",
+		vous : "laissez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -2840,12 +2840,12 @@ const vPresenter = {
 		vous : "mangiez",
 		"ils/elles" : "mangeaient"},
 	futurSimple : {
-		je : "mangerai",
-		tu : "mangeras",
-		"il/elle/on" : "mangera",
-		nous : "mangerons",
-		vous : "mangerez",
-		"ils/elles" : "mangeront"},
+		je : "présenterai",
+		tu : "présenteras",
+		"il/elle/on" : "présentera",
+		nous : "présenterons",
+		vous : "présenterez",
+		"ils/elles" : "présenteront"},
 	//compound tenses
 	passeCompose : {
 		je : "'ai mangé",
@@ -2906,12 +2906,12 @@ const vPresenter = {
 		"qu'ils/elles" : "eussent mangé"},
 //conditionnel
 	presentConditionmel : {
-		je : "mangerais",
-		tu : "mangerais",
-		"il/elle/on" : "mangerait",
-		nous : "mangerions",
-		vous : "mangeriez",
-		"ils/elles" : "mangeraient"},
+		je : "présenterais",
+		tu : "présenterais",
+		"il/elle/on" : "présenterait",
+		nous : "présenterions",
+		vous : "présenteriez",
+		"ils/elles" : "présenteraient"},
 	passeConditionnel : {
 		je : "'aurais mangé",
 		tu : "aurais mangé",
@@ -2929,10 +2929,10 @@ const vPresenter = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "mange",
+		tu : "présente",
 		"il/elle/on" : "",
-		nous : "mangeons",
-		vous : "mangez",
+		nous : "présentons",
+		vous : "présentez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -2973,12 +2973,12 @@ imparfait : {
 	vous : "descendiez",
 	"ils/elles" : "descendaient"},
 futurSimple : {
-	je : "descendrai",
-	tu : "descendras",
-	"il/elle/on" : "descendra",
-	nous : "descendrons",
-	vous : "descendrez",
-	"ils/elles" : "descendront"},
+	je : "accepterai",
+	tu : "accepteras",
+	"il/elle/on" : "acceptera",
+	nous : "accepterons",
+	vous : "accepterez",
+	"ils/elles" : "accepteront"},
 //compound tenses
 passeCompose : {
 	je : "suis descendu(e)",
@@ -3039,12 +3039,12 @@ plusQueParfaitSubjonctif : {
 	"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 presentConditionmel : {
-	je : "descendrais",
-	tu : "descendrais",
-	"il/elle/on" : "descendrait",
-	nous : "descendrions",
-	vous : "descendriez",
-	"ils/elles" : "descendraient"},
+	je : "accepterais",
+	tu : "accepterais",
+	"il/elle/on" : "accepterait",
+	nous : "accepterions",
+	vous : "accepteriez",
+	"ils/elles" : "accepteraient"},
 passeConditionnel : {
 	je : "serais descendu(e)",
 	tu : "serais descendu(e)",
@@ -3062,10 +3062,10 @@ passe2Conditionnel : {
 //imperative
 presentImperatif : {
 	je: "",
-	tu : "descends",
+	tu : "accepte",
 	"il/elle/on" : "",
-	nous : "descendons",
-	vous : "descendez",
+	nous : "acceptons",
+	vous : "acceptez",
 	"ils/elles" : ""},
 passeImperatif : {
 	je: "",
@@ -3107,12 +3107,12 @@ const vAgir = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "agirai",
+		tu : "agiras",
+		"il/elle/on" : "agira",
+		nous : "agirons",
+		vous : "agirez",
+		"ils/elles" : "agiront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -3173,12 +3173,12 @@ const vAgir = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "agirais",
+		tu : "agirais",
+		"il/elle/on" : "agirait",
+		nous : "agirions",
+		vous : "agiriez",
+		"ils/elles" : "agiraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -3196,10 +3196,10 @@ const vAgir = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "agis",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "agissons",
+		vous : "agissez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -3241,12 +3241,12 @@ const vPoser = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "poserai",
+		tu : "poseras",
+		"il/elle/on" : "posera",
+		nous : "poserons",
+		vous : "poserez",
+		"ils/elles" : "poseront"},
 	//compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -3307,12 +3307,12 @@ const vPoser = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "poserais",
+		tu : "poserais",
+		"il/elle/on" : "poserait",
+		nous : "poserions",
+		vous : "poseriez",
+		"ils/elles" : "poseraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -3330,10 +3330,10 @@ const vPoser = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "pose",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "posons",
+		vous : "posez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -3375,12 +3375,12 @@ imparfait : {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "jouerai",
+		tu : "joueras",
+		"il/elle/on" : "jouera",
+		nous : "jouerons",
+		vous : "jouerez",
+		"ils/elles" : "joueront"},
 	//compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -3441,12 +3441,12 @@ imparfait : {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "jouerais",
+		tu : "jouerais",
+		"il/elle/on" : "jouerait",
+		nous : "jouerions",
+		vous : "joueriez",
+		"ils/elles" : "joueraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -3464,10 +3464,10 @@ imparfait : {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "joue",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "jouons",
+		vous : "jouez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -3509,12 +3509,12 @@ const vChoisir = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "choisirai",
+		tu : "choisiras",
+		"il/elle/on" : "choisira",
+		nous : "choisirons",
+		vous : "choisirez",
+		"ils/elles" : "choisiront"},
 	//compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -3575,12 +3575,12 @@ const vChoisir = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "choisirais",
+		tu : "choisirais",
+		"il/elle/on" : "choisirait",
+		nous : "choisirions",
+		vous : "choisiriez",
+		"ils/elles" : "choisiraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -3598,10 +3598,10 @@ const vChoisir = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "choisis",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "choisissons",
+		vous : "choisissez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -3643,12 +3643,12 @@ const vToucher = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "toucherai",
+		tu : "toucheras",
+		"il/elle/on" : "touchera",
+		nous : "toucherons",
+		vous : "toucherez",
+		"ils/elles" : "toucheront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -3709,12 +3709,12 @@ const vToucher = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "toucherais",
+		tu : "toucherais",
+		"il/elle/on" : "toucherait",
+		nous : "toucherions",
+		vous : "toucheriez",
+		"ils/elles" : "toucheraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -3732,10 +3732,10 @@ const vToucher = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "touche",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "touchons",
+		vous : "touchez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -3777,12 +3777,12 @@ const vRetrouver = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "retrouverai",
+		tu : "retrouveras",
+		"il/elle/on" : "retrouvera",
+		nous : "retrouverons",
+		vous : "retrouverez",
+		"ils/elles" : "retrouveront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -3843,12 +3843,12 @@ const vRetrouver = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "retrouverais",
+		tu : "retrouverais",
+		"il/elle/on" : "retrouverait",
+		nous : "retrouverions",
+		vous : "retrouveriez",
+		"ils/elles" : "retrouveraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -3866,10 +3866,10 @@ const vRetrouver = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "retrouve",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "retrouvons",
+		vous : "retrouvez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -3911,12 +3911,12 @@ const vExpliquer = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "expliquerai",
+		tu : "expliqueras",
+		"il/elle/on" : "expliquera",
+		nous : "expliquerons",
+		vous : "expliquerez",
+		"ils/elles" : "expliqueront"},
 	//compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -3977,12 +3977,12 @@ const vExpliquer = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "expliquerais",
+		tu : "expliquerais",
+		"il/elle/on" : "expliquerait",
+		nous : "expliquerions",
+		vous : "expliqueriez",
+		"ils/elles" : "expliqueraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4000,10 +4000,10 @@ const vExpliquer = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "explique",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "expliquons",
+		vous : "expliquez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -4045,12 +4045,12 @@ const vConsiderer = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "considérerai",
+		tu : "considéreras",
+		"il/elle/on" : "considérera",
+		nous : "considérerons",
+		vous : "considérerez",
+		"ils/elles" : "considéreront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -4111,12 +4111,12 @@ const vConsiderer = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "considérerais",
+		tu : "considérerais",
+		"il/elle/on" : "considérerait",
+		nous : "considérerions",
+		vous : "considéreriez",
+		"ils/elles" : "considéreraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4134,10 +4134,10 @@ const vConsiderer = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "considére",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "considérons",
+		vous : "considérez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -4180,12 +4180,12 @@ const vGagner = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "gagnerai",
+		tu : "gagneras",
+		"il/elle/on" : "gagnera",
+		nous : "gagnerons",
+		vous : "gagnerez",
+		"ils/elles" : "gagneront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -4246,12 +4246,12 @@ const vGagner = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "gagnerais",
+		tu : "gagnerais",
+		"il/elle/on" : "gagnerait",
+		nous : "gagnerions",
+		vous : "gagneriez",
+		"ils/elles" : "gagneraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4269,10 +4269,10 @@ const vGagner = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "gagne",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "gagnons",
+		vous : "gagnez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -4313,12 +4313,12 @@ const vExister = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "existerai",
+		tu : "existeras",
+		"il/elle/on" : "existera",
+		nous : "existerons",
+		vous : "existerez",
+		"ils/elles" : "existerons"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -4379,12 +4379,12 @@ const vExister = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "existerais",
+		tu : "existerais",
+		"il/elle/on" : "existerait",
+		nous : "existerions",
+		vous : "existeriez",
+		"ils/elles" : "existeraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4402,10 +4402,10 @@ const vExister = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "existe",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "existons",
+		vous : "existez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -4446,12 +4446,12 @@ const vRefuser = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "refuserai",
+		tu : "refuseras",
+		"il/elle/on" : "refusera",
+		nous : "refuserons",
+		vous : "refuserez",
+		"ils/elles" : "refuseront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -4512,12 +4512,12 @@ const vRefuser = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "refuserais",
+		tu : "refuserais",
+		"il/elle/on" : "refuserait",
+		nous : "refuserions",
+		vous : "refuseriez",
+		"ils/elles" : "refuseraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4535,10 +4535,10 @@ const vRefuser = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "refuse",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "refusons",
+		vous : "refusez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -4579,12 +4579,12 @@ const vReussir = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "réussirai",
+		tu : "réussiras",
+		"il/elle/on" : "réussira",
+		nous : "réussirons",
+		vous : "réussirez",
+		"ils/elles" : "réussiront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -4645,12 +4645,12 @@ const vReussir = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "réussirais",
+		tu : "réussirais",
+		"il/elle/on" : "réussirait",
+		nous : "réussirions",
+		vous : "réussiriez",
+		"ils/elles" : "réussiraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4668,10 +4668,10 @@ const vReussir = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "réussis",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "réussissons",
+		vous : "réussissez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -4712,12 +4712,12 @@ const vChanger = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "changerai",
+		tu : "changera",
+		"il/elle/on" : "changera",
+		nous : "changerons",
+		vous : "changerez",
+		"ils/elles" : "changeront"},
 //compound tenses
 	passeCompose : {
 		je : "suis descendu(e)",
@@ -4778,12 +4778,12 @@ const vChanger = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "changerais",
+		tu : "changerais",
+		"il/elle/on" : "changerait",
+		nous : "changerions",
+		vous : "changeriez",
+		"ils/elles" : "changeraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4801,10 +4801,10 @@ const vChanger = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "change",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "changeons",
+		vous : "changez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",

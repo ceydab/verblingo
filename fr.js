@@ -1,8 +1,7 @@
 // JavaScript Document
 
 ///oir controlu unutma
-//essayerden devam
-//passe compose retrouver
+//empecher devam
 
 console.log("denem")
 
@@ -3368,7 +3367,7 @@ const vJouer = {
 		nous : "descendîmes",
 		vous : "descendîtes",
 		"ils/elles" : "descendirent"},
-imparfait : {
+	imparfait : {
 		je : "descendais",
 		tu : "descendais",
 		"il/elle/on" : "descendait",
@@ -3786,12 +3785,12 @@ const vRetrouver = {
 		"ils/elles" : "retrouveront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai retrouvé",
+		tu : "as retrouvé",
+		"il/elle/on" : "a retrouvé",
+		nous : "avons retrouvé",
+		vous : "avez retrouvé",
+		"ils/elles" : "ont retrouvé"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -3920,12 +3919,12 @@ const vExpliquer = {
 		"ils/elles" : "expliqueront"},
 	//compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai expliqué",
+		tu : "as expliqué",
+		"il/elle/on" : "a expliqué",
+		nous : "avons expliqué",
+		vous : "avez expliqué",
+		"ils/elles" : "ont expliqué"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4054,12 +4053,12 @@ const vConsiderer = {
 		"ils/elles" : "considéreront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai considéré",
+		tu : "as considéré",
+		"il/elle/on" : "a considéré",
+		nous : "avons considéré",
+		vous : "avez considéré",
+		"ils/elles" : "ont considéré"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4189,12 +4188,12 @@ const vGagner = {
 		"ils/elles" : "gagneront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai gagné",
+		tu : "as gagné",
+		"il/elle/on" : "a gagné",
+		nous : "avons gagné",
+		vous : "avez gagné",
+		"ils/elles" : "ont gagné"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4322,12 +4321,12 @@ const vExister = {
 		"ils/elles" : "existerons"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai existé",
+		tu : "as existé",
+		"il/elle/on" : "a existé",
+		nous : "avons existé",
+		vous : "avez existé",
+		"ils/elles" : "ont existé"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4455,12 +4454,12 @@ const vRefuser = {
 		"ils/elles" : "refuseront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai refusé",
+		tu : "as refusé",
+		"il/elle/on" : "a refusé",
+		nous : "avons refusé",
+		vous : "avez refusé",
+		"ils/elles" : "ont refusé"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4588,12 +4587,12 @@ const vReussir = {
 		"ils/elles" : "réussiront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai réussi",
+		tu : "as réussi",
+		"il/elle/on" : "a réussi",
+		nous : "avons réussi",
+		vous : "avez réussi",
+		"ils/elles" : "ont réussi"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4721,12 +4720,12 @@ const vChanger = {
 		"ils/elles" : "changeront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai changé",
+		tu : "as changé",
+		"il/elle/on" : "a changé",
+		nous : "avons changé",
+		vous : "avez changé",
+		"ils/elles" : "ont changé"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4846,20 +4845,20 @@ const vEssayer = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "'essaierai, 'essayerai",
+		tu : "essaieras, essayeras",
+		"il/elle/on" : "essaiera, essayera",
+		nous : "essaierons, essayerons",
+		vous : "essaierez, essayerez",
+		"ils/elles" : "essaieront, essayeront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai essayé",
+		tu : "as essayé",
+		"il/elle/on" : "a essayé",
+		nous : "avons essayé",
+		vous : "avez essayé",
+		"ils/elles" : "ont essayé"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -4912,12 +4911,12 @@ const vEssayer = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "'essaierais, 'essayerais",
+		tu : "essaierais, essayerais",
+		"il/elle/on" : "essaierait, essayerait",
+		nous : "essaierions, essayerions",
+		vous : "essaieriez, essayeriez",
+		"ils/elles" : "essaieraient, essayeraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -4935,10 +4934,10 @@ const vEssayer = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "essaie, essaye",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "essayons",
+		vous : "essayez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -4979,20 +4978,20 @@ const vTravailler = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "travaillerai",
+		tu : "travailleras",
+		"il/elle/on" : "travaillera",
+		nous : "travaillerons",
+		vous : "travaillerez",
+		"ils/elles" : "travailleront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai travaillé",
+		tu : "as ai travaillé",
+		"il/elle/on" : "a travaillé",
+		nous : "avons travaillé",
+		vous : "avez travaillé",
+		"ils/elles" : "ont travaillé"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -5045,12 +5044,12 @@ const vTravailler = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "travaillerais",
+		tu : "travaillerais",
+		"il/elle/on" : "travaillerait",
+		nous : "travallerions",
+		vous : "travalleriez",
+		"ils/elles" : "travailleraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -5068,10 +5067,10 @@ const vTravailler = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "travaille",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "travaillons",
+		vous : "travaillez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -5091,12 +5090,12 @@ const vRepresenter = {
 	definition : "to represent",	
 //tenses
 	present : {
-		je : "réussis",
-		tu : "réussis",
-		"il/elle/on" : "réussit",
-		nous : "réussissons",
-		vous : "réussissez",
-		"ils/elles" : "réussissent" },
+		je : "représente",
+		tu : "représentes",
+		"il/elle/on" : "représente",
+		nous : "représentons",
+		vous : "représentez",
+		"ils/elles" : "représentent" },
 	passeSimple : {
 		je : "descendis",
 		tu : "descendis",
@@ -5112,20 +5111,20 @@ const vRepresenter = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "représenterai",
+		tu : "représenteras",
+		"il/elle/on" : "représentera",
+		nous : "représenterons",
+		vous : "représenterez",
+		"ils/elles" : "représenteront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai représenté",
+		tu : "as représenté",
+		"il/elle/on" : "a représenté",
+		nous : "avons représenté",
+		vous : "avez représenté",
+		"ils/elles" : "ont représenté"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -5178,12 +5177,12 @@ const vRepresenter = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "représenterais",
+		tu : "représenterais",
+		"il/elle/on" : "représenterait",
+		nous : "représenterions",
+		vous : "représenteriez",
+		"ils/elles" : "représenteraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -5201,10 +5200,10 @@ const vRepresenter = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "représente",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "représentons",
+		vous : "représentez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",
@@ -5245,20 +5244,20 @@ const vAssurer = {
 		vous : "descendiez",
 		"ils/elles" : "descendaient"},
 	futurSimple : {
-		je : "descendrai",
-		tu : "descendras",
-		"il/elle/on" : "descendra",
-		nous : "descendrons",
-		vous : "descendrez",
-		"ils/elles" : "descendront"},
+		je : "assurerai",
+		tu : "assureras",
+		"il/elle/on" : "assurera",
+		nous : "assurerons",
+		vous : "assurerez",
+		"ils/elles" : "assureront"},
 //compound tenses
 	passeCompose : {
-		je : "suis descendu(e)",
-		tu : "es descendu(e)",
-		"il/elle/on" : "est descendu(e)",
-		nous : "sommes descendu(e)s",
-		vous : "êtes descendu(e)(s)",
-		"ils/elles" : "sont descendu(e)s"},
+		je : "'ai assuré",
+		tu : "as assuré",
+		"il/elle/on" : "a assuré",
+		nous : "avons assuré",
+		vous : "avez assuré",
+		"ils/elles" : "ont assuré"},
 	plusQueParfait : {
 		je : "'étais descendu(e)",
 		tu : "étais descendu(e)",
@@ -5311,12 +5310,12 @@ const vAssurer = {
 		"qu'ils/elles" : "fussent descendu(e)s"},
 //conditionnel
 	presentConditionmel : {
-		je : "descendrais",
-		tu : "descendrais",
-		"il/elle/on" : "descendrait",
-		nous : "descendrions",
-		vous : "descendriez",
-		"ils/elles" : "descendraient"},
+		je : "assurerais",
+		tu : "assurerais",
+		"il/elle/on" : "assurerait",
+		nous : "assurerions",
+		vous : "assureriez",
+		"ils/elles" : "assureraient"},
 	passeConditionnel : {
 		je : "serais descendu(e)",
 		tu : "serais descendu(e)",
@@ -5334,10 +5333,10 @@ const vAssurer = {
 //imperative
 	presentImperatif : {
 		je: "",
-		tu : "descends",
+		tu : "assure",
 		"il/elle/on" : "",
-		nous : "descendons",
-		vous : "descendez",
+		nous : "assurons",
+		vous : "assurez",
 		"ils/elles" : ""},
 	passeImperatif : {
 		je: "",

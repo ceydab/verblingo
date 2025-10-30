@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+    <title>Verblingo | German Conjugation</title>
+	<script type="text/javascript" ></script>
+	<link rel="stylesheet" type="text/css" href="de.css">
+</head>
+<body>
+	<nav id="upline">
+		<span id="titlenav" onclick="location.href='index.html'">Verblingo</span>
+	</nav>
+	<header id="pageName" onclick="location.href='index.html'">Verblingo<sup>DE</sup>
+		 <img id="flag" src="de.png" alt="german"></header>
+	<aside id="leftspace">
+
+	</aside>
+<main id="ask">
+	<article id="question"></article>
+	<article id="definition"></article><br>
+	<section id="options">
+	<button class="options" id="options_0" title="0"></button>
+	<button class="options" id="options_1" title="1"></button>
+	<button class="options" id="options_2" title="2"></button>
+	</section>
+	<button id="next">Next</button>
+</main>
+
+
+<main id="whatQuestions">
+  <section class="verbIdentify"> <legend>Tense</legend>
+	<legend class="tenseType"> Indikativ: </legend>
+	  <label>
+	    <input type="checkbox" name="Tense" value="present" class="checkbox" id="Tense_0">
+	    Präsens</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="pastSimple" class="checkbox" id="Tense_1">
+	    Präteritum</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="presentPerfect" class="checkbox" id="Tense_2">
+	    Perfekt</label>
+      <label>
+	    <input type="checkbox" name="Tense" value="pluperfect" class="checkbox" id="Tense_3">
+	    Plusquamperfekt</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="futureSimple" class="checkbox" id="Tense_4">
+	    Futur I</label>
+      <label>
+	    <input type="checkbox" name="Tense" value="future2" class="checkbox" id="Tense_5">
+	    Futur II</label>
+
+
+
+
+<br><br>
+	<legend class="tenseType"> Konjunktiv:</legend>
+      <label>
+		<input type="checkbox" name="Tense" value="presentSubjunctive" class="checkbox" id="Tense_6">
+	    Konjunktiv I</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="imperfectSubjunctive" class="checkbox" id="Tense_7">
+	    Konjunktiv II</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="pastSubjunctive" class="checkbox" id="Tense_8">
+	    Konjunktiv Perfekt</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="pluperfectSubjunctive" class="checkbox" id="Tense_9">
+	    Konjunktiv Plusquamperfekt</label>
+      <label>
+	    <input type="checkbox" name="Tense" value="pluperfectSubjunctive" class="checkbox" id="Tense_10">
+	    Konjunktiv Futur I</label>
+      <label>
+	    <input type="checkbox" name="Tense" value="pluperfectSubjunctive" class="checkbox" id="Tense_11">
+	    Konjunktiv Futur II</label>
+
+
+
+<br><br>
+	<legend class="tenseType">Imperativ</legend>
+		<label>
+			<input type="checkbox" name="Tense" value="presentImperative" class="checkbox" id="Tense_12">
+			Imperativ </label>
+
+
+  </section>
+
+
+  <section class="verbIdentify" id="regularSec">
+	  <legend class="verbType">Regelmäßig oder Unregelmäßig </legend>
+	<label>
+	      <input type="checkbox" name="regularity" value="regular" class="checkbox" id="regularity_0" checked>
+	      Regular</label>
+		  <label>
+	      <input type="checkbox" name="regularity" value="irregular" class="checkbox" id="regularity_1" checked>
+	      Irregular</label>
+  </section>
+	<br>
+<!--  <section class="verbIdentify" id="reflexiveSec">-->
+<!--	<legend class="verbType">Include reflexive words:</legend>-->
+<!--	  <label>-->
+<!--	    <input type="radio" name="reflexivity" value="reflexive" class="checkbox" id="reflexivity_0" checked>-->
+<!--	    Yes</label>-->
+<!--	  <label>-->
+<!--	    <input type="radio" name="reflexivity" value="not reflexive" class="checkbox" id="reflexivity_1">-->
+<!--	    No</label>-->
+<!--		<label>-->
+<!--		<input type="radio" name="reflexivity" value="onlyreflexive" class="checkbox" id="reflexivity_2" >-->
+<!--	    Only reflexive</label>-->
+<!--  </section>-->
+<!--  <br>-->
+
+  <section class="seperability" id="seperability">
+	 <legend class="seperability">Trennbar oder Untrennbar</legend>
+	    <label>
+	      <input type="checkbox" name="separable" value="trennbare" class="checkbox" id="separable" checked>
+	      -er</label>
+        <label>
+	      <input type="checkbox" name="inseparable" value="untrennbare" class="checkbox" id="inseparable" checked>
+	      -ir</label>
+  </section>
+
+	<!--
+  <table width="400"> <tr>Verbs with base number:</tr>
+    <tr>
+      <td><label>
+        <input type="checkbox" name="basenumber" value="one" id="basenumber_0" checked>
+        One</label></td>
+
+      <td><label>
+        <input type="checkbox" name="basenumber" value="two" id="basenumber_1" checked>
+        Two</label></td>
+
+      <td><label>
+        <input type="checkbox" name="basenumber" value="three" id="basenumber_2" checked>
+        Three</label></td>
+
+      <td><label>
+        <input type="checkbox" name="basenumber" value="irregular" id="basenumber_3" checked>
+        Irregular</label></td>
+    </tr>
+  </table>-->
+
+	<button id="start" onclick="quizTypeOne()">Start</button>
+
+</main>
+
+
+
+
+<aside id="rightspace"></aside>
+<script type="text/javascript" src="fr.js" ></script>
+<script type="text/javascript" src="fr.json" ></script>
+
+</body>
+</html>

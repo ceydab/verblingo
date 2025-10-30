@@ -1,5 +1,4 @@
-console.log("hello")
-
+const {features, tenses} = require('./de.js');
 
 const mongoose = require('mongoose');
 const uri = 'mongodb://localhost:27017/langweb'
@@ -18,13 +17,13 @@ async function connectDB() {
 }
 
 connectDB();
-
-
 const verbCollection = mongoose.connection.collection('verbs');
 
 async function readData() {
-  const docs = await verbCollection.find({}).toArray(); // Fetch all documents
-  console.log("📄 Found documents:", docs);
+  const docs = await verbCollection.find({$or: features},{projection:tenses}).toArray(); // Fetch all documents
+  db=JSON.stringify(docs)
+  console.log(db)
+  module.exports = db
 }
 
 setTimeout(readData, 1000);

@@ -90,13 +90,13 @@
   <section class="verbIdentify" id="regularSec">
 	  <legend class="verbType">Regelmäßig oder Unregelmäßig </legend>
 	<label>
-	      <input type="checkbox" name="regularity" value="regular" class="checkbox" id="regularity_0" checked>
+	      <input type="checkbox" name="regularity" value="regular" class="checkbox" id="regularity_0">
 	      Regular</label>
 		  <label>
-	      <input type="checkbox" name="regularity" value="irregular" class="checkbox" id="regularity_1" checked>
+	      <input type="checkbox" name="regularity" value="irregular" class="checkbox" id="regularity_1">
 	      Irregular</label>
   </section>
-	<br>
+
 <!--  <section class="verbIdentify" id="reflexiveSec">-->
 <!--	<legend class="verbType">Include reflexive words:</legend>-->
 <!--	  <label>-->
@@ -105,42 +105,28 @@
 <!--	  <label>-->
 <!--	    <input type="radio" name="reflexivity" value="not reflexive" class="checkbox" id="reflexivity_1">-->
 <!--	    No</label>-->
-<!--		<label>-->
-<!--		<input type="radio" name="reflexivity" value="onlyreflexive" class="checkbox" id="reflexivity_2" >-->
-<!--	    Only reflexive</label>-->
 <!--  </section>-->
 <!--  <br>-->
 
-  <section class="seperability" id="seperability">
-	 <legend class="seperability">Trennbar oder Untrennbar</legend>
+  <section class="verbIdentify" id="seperability">
+	 <legend class="verbType">Trennbar oder Untrennbar</legend>
 	    <label>
-	      <input type="checkbox" name="separable" value="trennbare" class="checkbox" id="separable" checked>
-	      -er</label>
+	      <input type="checkbox" name="separable" value="trennbare" class="checkbox" id="separable">
+	      Trennbar</label>
         <label>
-	      <input type="checkbox" name="inseparable" value="untrennbare" class="checkbox" id="inseparable" checked>
-	      -ir</label>
+	      <input type="checkbox" name="inseparable" value="untrennbare" class="checkbox" id="inseparable">
+	      Untrennbar</label>
   </section>
 
-	<!--
-  <table width="400"> <tr>Verbs with base number:</tr>
-    <tr>
-      <td><label>
-        <input type="checkbox" name="basenumber" value="one" id="basenumber_0" checked>
-        One</label></td>
-
-      <td><label>
-        <input type="checkbox" name="basenumber" value="two" id="basenumber_1" checked>
-        Two</label></td>
-
-      <td><label>
-        <input type="checkbox" name="basenumber" value="three" id="basenumber_2" checked>
-        Three</label></td>
-
-      <td><label>
-        <input type="checkbox" name="basenumber" value="irregular" id="basenumber_3" checked>
-        Irregular</label></td>
-    </tr>
-  </table>-->
+  <section class="verbIdentify" id="root">
+	 <legend class="verbType">Root Change</legend>
+	    <label>
+	      <input type="checkbox" name="root_change" value="root_change" class="checkbox" id="root_change">
+	      Root Change</label>
+        <label>
+	      <input type="checkbox" name="no_root_change" value="no_root_change" class="checkbox" id="no_root_change">
+	      No Root Change</label>
+  </section>
 
 	<button id="start" onclick="quizTypeOne()">Start</button>
 
@@ -150,8 +136,8 @@
 
 
 <aside id="rightspace"></aside>
-<script type="text/javascript" src="fr.js" ></script>
-<script type="text/javascript" src="fr.json" ></script>
+<script type="text/javascript" src="de.js" ></script>
+<script type="text/javascript" src="de.json" ></script>
 
 </body>
 </html>

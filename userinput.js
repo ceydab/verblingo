@@ -5,7 +5,6 @@ export function prepareVerbs() {
     let features = []
     let tenses = {}
     function regularness() { //check regularity
-        console.log("regular")
         let regularcheck = document.getElementById("regularity_0").checked //turns boolean
         let irregularcheck = document.getElementById("regularity_1").checked
 
@@ -97,10 +96,10 @@ export function prepareVerbs() {
             Object.assign(tenses, {'Imperativ.Präsens': 1})
 
         }
-        if (tenses==={}){
+        if (Object.keys(tenses).length === 0){
             tenses = {'regular': 0,'root_change':0,'separable':0,'reflexive':0}
         }
-        console.log("does this work")
+        else{Object.assign(tenses,{'meaning': 1})}
     } //default: all tenses brought
 
     function clean() {
@@ -112,11 +111,13 @@ export function prepareVerbs() {
     separabilitycheck()
     rootcheck()
     whichTense()
-    Object.assign(tenses,{'meaning': 1})
+
 
     if (features.length===0){
         features.push({"regular": false},{"regular": true})
     }
+    console.log(features)
+    console.log(tenses)
     clean()
     return {features, tenses}
 }

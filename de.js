@@ -44,7 +44,7 @@ export function quizTypeOne(db) {
 			option2 = typeObject[timeKey][thirdPronKey]
 		}while (conjugation ===option1 || conjugation ===option2 || option1 ===option2)
 
-		document.getElementById("question").innerHTML = pronoun + ", " + verb + ", " + type +" " +tense
+		document.getElementById("question").innerHTML =type +" " +tense+ "<br><br>"  + "<span id='pronounverb'>" + pronoun + " " + "<span id='verb'>" +verb + "</span>"+ "</span>"
 		//question sent in the order of subject, verb, tense
 		document.getElementById("definition").innerHTML = meaning
 		//definition of the verb shown

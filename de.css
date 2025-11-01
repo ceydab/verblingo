@@ -1,15 +1,14 @@
-#000000
-#DD0000
-#FFCE00
+/*#fad641 lighter yellow*/
 .options{
-    background-color: white;
+    background-color: #F3E9C0;
     border-radius: 10px;
     box-shadow: -2px -2px 3px  #DD0000,2px 2px 3px   #000000;
     list-style: none;
     text-align: center;
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 60px;
     margin: 20px;
+    cursor: pointer;
 }
 
 #options_0:hover{
@@ -18,30 +17,38 @@
 }
 #options_1:hover{
     background-color: #FFCE00;
-    
+
 }
 #options_2:hover{
     background-color: #000000;
     color: #FFCE00;
 }
 #options{
-    text-align: center;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
     color: #DD0000;
     left: 0;
     margin: auto;
-    
+    width: 70%;
+    margin-top: 20px;
+    border-width: 5px;
+    box-shadow: -2px -2px 3px  #DD0000,2px 2px 3px   #000000;
+    border: solid;
+    background-color: #FFCE00;
+    padding: 20px;
 }
 #ask{
     padding-top: 40px;
     text-align: center;
     display: none;
-    width: 50%;
+    width: 70%;
     left: 0;
     margin: auto;
     color: #DD0000;
     background-color: #FFCE00;
     border: solid #FFCE00 2px ;
-    box-shadow: 3px 3px 3px #DD0000, 3px 3px 3px inset #000000;
+    box-shadow: 6px 6px 6px #DD0000, 6px 6px 6px inset #000000;
 }
 #next{
     display: none;
@@ -53,6 +60,7 @@
     margin-bottom: 20px;
     width: 80px;
     height: 30px;
+    cursor: pointer;
 }
 #whatQuestions{
     left: 0%;
@@ -85,13 +93,13 @@
     padding: 20px;
     box-shadow: -3px -3px 4px  #DD0000,3px 3px 4px   #000000;
     background-color: #FFCE00;
-    width: 30%;
+    width: 40%;
     word-spacing: 10px;
 }
 #definition{
     margin: auto;
     left: 0;
-    width: 30%;
+    width: 40%;
     margin-top: 20px;
     border-width: 5px;
     box-shadow: -2px -2px 3px  #DD0000,2px 2px 3px   #000000;
@@ -132,6 +140,7 @@ legend{
    display: inline-block;
    position: relative;
    border-radius: 5px;
+   cursor: pointer;
 }
 #start{
      -webkit-appearance: none;
@@ -139,7 +148,7 @@ legend{
     background-color: #FFCE00;
     border-radius: 5px;
     border-color: #DD0000;
-    
+    cursor: pointer;
     width: 80px;
     height: 30px;
 }

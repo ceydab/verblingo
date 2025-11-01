@@ -81,10 +81,10 @@ export function prepareVerbs() {
             Object.assign(tenses, {'Konjunktiv.Konjunktiv II': 1})
         }
         if (document.getElementById("Tense_8").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Konj Perfekt': 1})
+            Object.assign(tenses, {'Konjunktiv.Perfekt': 1})
         }
         if (document.getElementById("Tense_9").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Konj Plusquam': 1})
+            Object.assign(tenses, {'Konjunktiv.Plusquam': 1})
         }
         if (document.getElementById("Tense_10").checked === true) {
             Object.assign(tenses, {'Konjunktiv.Futur I': 1})
@@ -99,7 +99,10 @@ export function prepareVerbs() {
         if (Object.keys(tenses).length === 0){
             tenses = {'regular': 0,'root_change':0,'separable':0,'reflexive':0}
         }
-        else{Object.assign(tenses,{'meaning': 1})}
+        else{
+            Object.assign(tenses,{'meaning': 1})
+            Object.assign(tenses,{'verb': 1})
+        }
     } //default: all tenses brought
 
     function clean() {

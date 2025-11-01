@@ -1,7 +1,7 @@
 console.log("de.js began")
 export function quizTypeOne(db) {
 
-	function prepareQuestion(arr) {
+	function prepareQuestion() {
 		document.getElementById("ask").setAttribute("style", "display:block")
 		document.getElementById("next").setAttribute("style", "display: none")
 
@@ -9,7 +9,8 @@ export function quizTypeOne(db) {
 		const randomVerb = db[Math.floor(Math.random() * db.length)];
 
 		// Pick a random type key from the known keys
-		const typeKeys = ["Indikativ", "Konjunktiv","Imperativ"];
+		const postypeKeys = ["Indikativ", "Konjunktiv","Imperativ"];
+		const typeKeys = postypeKeys.filter(key => randomVerb.hasOwnProperty(key))
 		const typeKey = typeKeys[Math.floor(Math.random() * typeKeys.length)];
 		const typeObject = randomVerb[typeKey];
 
@@ -20,20 +21,29 @@ export function quizTypeOne(db) {
 		// Pick a random pronoun inside the chosen time key
 		const pronKeys = Object.keys(typeObject[timeKey]);
 		const pronKey = pronKeys[Math.floor(Math.random() * pronKeys.length)];
-		const remainingPronKeys = pronKeys.filter(k => k !== pronKey)
-		const shuffled = remainingPronKeys.sort(() => 0.5 - Math.random());
-		const secondPronKey = shuffled[0];
-		const thirdPronKey = shuffled[1];
 		// Get the conjugation
 		const conjugation = typeObject[timeKey][pronKey];
-		const options = typeObject[timeKey][pronKey];
+
 		let verb = randomVerb.verb
 		let meaning = randomVerb.meaning
 		let type = typeKey
 		let tense= timeKey
 		let pronoun = pronKey
+		let remainingPronKeys = pronKeys.filter(k => k !== pronKey)
+		const shuffled = remainingPronKeys.sort(() => 0.5 - Math.random());
+		const secondPronKey = shuffled[0];
+		const thirdPronKey = shuffled[1];
 		let option1 = typeObject[timeKey][secondPronKey]
 		let option2 = typeObject[timeKey][thirdPronKey]
+		do {
+			let remainingPronKeys = pronKeys.filter(k => k !== pronKey)
+			let shuffled = remainingPronKeys.sort(() => 0.5 - Math.random());
+			let secondPronKey = shuffled[0];
+			let thirdPronKey = shuffled[1];
+			option1 = typeObject[timeKey][secondPronKey]
+			option2 = typeObject[timeKey][thirdPronKey]
+		}while (conjugation ===option1 || conjugation ===option2 || option1 ===option2)
+
 		document.getElementById("question").innerHTML = pronoun + ", " + verb + ", " + type +" " +tense
 		//question sent in the order of subject, verb, tense
 		document.getElementById("definition").innerHTML = meaning
@@ -46,7 +56,7 @@ export function quizTypeOne(db) {
 		i.splice(correctOptionNo, 1);
 		document.getElementById("options").children[correctOptionNo].innerHTML = conjugation
 		document.getElementById("options").children[i[0]].innerHTML = option1
-		document.getElementById("options").children[i[1]].innerHTML = option1
+		document.getElementById("options").children[i[1]].innerHTML = option2
 
 		document.getElementById("options").addEventListener("mousedown", showResult)
 

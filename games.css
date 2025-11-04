@@ -27,6 +27,7 @@ body{
     padding-bottom: 20px;
     background-color: #ffffff;
     color: #3c6e71;
+    /*display: none;*/
 }
 
 .games{
@@ -49,7 +50,7 @@ body{
     border-color: #3c6e71;
 }
 .playgame{
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     display: none;
     width: 70%;
@@ -60,6 +61,53 @@ body{
     border: solid #DD0000cc 6px ;
     border-radius: 10px;
     box-shadow: -12px -12px 12px #000000, 12px 12px 12px #FFCE00;
+}
+.gamedesc{
+    margin: auto;
+    left: 0;
+    border-radius: 10px;
+    border-width: 5px;
+    border: solid;
+    padding: 20px;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+    /*box-shadow: -4px -4px 3px  #FFCE00,4px 4px 3px   #000000;*/
+    color: #3c6e71;
+    width: 80%;
+    /*word-spacing: 10px;*/
+}
+#gameboard{
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    /*color: #DD0000;*/
+    left: 0;
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    /*border-width: 5px;*/
+    /*box-shadow: -2px -2px 3px  #DD0000,2px 2px 3px   #000000;*/
+    /*border: solid;/*/
+    /*background-color: #FFCE00;*/
+    padding: 10px;
+}
+.options{
+    background-color: #d9d9d9;
+    color: #3c6e71;
+    /*color: white;*/
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    /*box-shadow: -4px -4px 3px  #FFCE00,4px 4px 3px   #000000;*/
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    margin: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    /*font-size: large;*/
 }
 #leftspace{
     width: 20%;
@@ -81,6 +129,11 @@ body{
     margin: auto;
     color: #DD0000;
     position: relative;
+}
+.info{
+    /*background-color: #ffffff;*/
+    border-bottom: 2px #d9d9d9 solid;
+    color: #284b63;
 }
 sup{
     font-size: 12px;

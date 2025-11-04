@@ -1,0 +1,134 @@
+body{
+    font-family: "Century Gothic";
+    font-weight: normal;
+}
+#gameoptions{
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    /*color: #DD0000;*/
+    left: 0;
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+    padding: 40px;
+    color: #3c6e71;
+}
+#whatGames{
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    border: solid;
+    border-color: #DD0000;
+    box-shadow:  -6px -6px 6px  #000000,6px -6px 6px  #000000, -6px 6px 6px  #000000,6px 6px 6px  #000000, inset -6px -6px 6px  #FFCE00, inset 6px -6px 6px  #FFCE00, inset -6px 6px 6px  #FFCE00, inset 6px 6px 6px  #FFCE00;
+    border-width: 10px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    color: #3c6e71;
+}
+
+.games{
+    -webkit-appearance: none;
+   margin: 2px;
+   display: inline-block;
+   position: relative;
+   border-radius: 5px;
+   cursor: pointer;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+    color: #3c6e71;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.games:hover{
+    border-color: #3c6e71;
+}
+.playgame{
+    padding-top: 50px;
+    text-align: center;
+    display: none;
+    width: 70%;
+    left: 0;
+    margin: auto;
+    color: #FFCE00;
+    background-color: white;
+    border: solid #DD0000cc 6px ;
+    border-radius: 10px;
+    box-shadow: -12px -12px 12px #000000, 12px 12px 12px #FFCE00;
+}
+#leftspace{
+    width: 20%;
+    float: left;
+   
+}
+#rightspace{
+    width: 20%;
+    float: right;
+ 
+}
+#pageName{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    left: 0;
+    margin: auto;
+    color: #DD0000;
+    position: relative;
+}
+sup{
+    font-size: 12px;
+    position: absolute;
+}
+#langChoose a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+}
+#langChoose{
+    float: right;
+   
+}
+#titlenav{
+    font-weight: bolder;
+    float: left;
+    font-size: 20px;
+    color: #DD0000;
+}
+#upline{
+    background-color: #FFCE00;
+    height: 35px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+}
+#upline span{
+    transform: translateY(30%);
+}
+#flag{
+    width: 5%;
+    position: absolute;
+    margin-left: 20px;
+    transform: translateY(50%);
+}
+section {
+    display: block;
+}
+aside {
+    display: block;
+}
+main{
+    display: block;
+}
+#verb{
+  font-weight: bolder;
+}
+#pronounverb{
+    font-size: 1.2em;
+}

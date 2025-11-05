@@ -106,8 +106,8 @@ body{
     margin-bottom: 30px;
     cursor: pointer;
     font-family: "Century Gothic";
-    font-weight: bold;
-    /*font-size: large;*/
+    /*font-weight: bold;*/
+    font-size: large;
 }
 #leftspace{
     width: 20%;
@@ -120,6 +120,7 @@ body{
  
 }
 #pageName{
+    cursor: pointer;
     font-size: 40px;
     font-weight: 700;
     text-align: center;

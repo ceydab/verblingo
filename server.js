@@ -1,7 +1,7 @@
 // server.js
 import express from 'express';
 import cors from 'cors';
-import { readData } from './db.js';
+import { readVerbs, readGames } from './db.js';
 
 const app = express();
 app.use(cors()); // allow requests from frontend
@@ -11,7 +11,7 @@ app.post('/get-db', async (req, res) => {
   const { features, tenses } = req.body;
   console.log("helo")
   try {
-    const data = await readData(features, tenses);
+    const data = await readVerbs(features, tenses);
     res.json(data);
   } catch (err) {
     console.error(err);

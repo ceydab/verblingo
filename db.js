@@ -17,9 +17,16 @@ async function connectDB() {
 
 connectDB();
 
-const verbCollection = mongoose.connection.collection('verbs')
-export function readData(features, tenses) {
+export function readVerbs(features, tenses) {
 
+  const verbCollection = mongoose.connection.collection('verbs')
+  const db = verbCollection.find({$or: features},{projection:tenses}).toArray(); // Fetch all documents
+  return db
+}
+
+export function readGames(gameid) {
+
+  const gameCollection = mongoose.connection.collection('games')
   const db = verbCollection.find({$or: features},{projection:tenses}).toArray(); // Fetch all documents
   return db
 }

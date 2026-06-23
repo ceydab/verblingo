@@ -1,6 +1,7 @@
 console.log("db.js began")
 import mongoose from 'mongoose'
-const uri = 'mongodb://localhost:27017/langweb'
+import 'dotenv/config'
+const uri = process.env.MONGO_URI
 
 async function connectDB() {
   try {

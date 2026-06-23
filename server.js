@@ -10,9 +10,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // serve static frontend files (html, js, css)
-app.use(express.static(__dirname));
-
 const app = express();
+// app.use(express.static(__dirname));
+app.use(express.static('public'));
+
+
 app.use(cors()); // allow requests from frontend
 app.use(express.json());
 

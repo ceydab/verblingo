@@ -1,47 +1,49 @@
-console.log("games.js began")
-import allgamecards from "../data/games.json" with { type: "json" }
+console.log("games.js began");
 
+export async function games(gameid) {
+    const game = "play" + gameid;
+    const gameboard = gameid + "board";
 
-export function games(gameid){
-    const game = "play"+gameid
-    const gameboard = gameid +"board"
-    let targetId = gameid;
-    if (targetId == "game2"){targetId = "game1"}
+    try {
+        // 1. Fetch the already-randomized data array from your server API
+        const response = await fetch(`/api/games/${gameid}`);
+        if (!response.ok) throw new Error("Failed to fetch game data from API");
 
-    const gameData = allgamecards.find(item => item.id === targetId);
-    if (!gameData) {
-        console.error(`Game data for ${targetId} not found!`);
-        return;
+        // This 'shuffled' variable is now populated directly by your server
+        let shuffled = await response.json();
+
+        // --- The rest of your UI logic remains exactly the same ---
+        function clean() {
+            document.getElementById("whatGames").setAttribute("style", "display: none");
+        }
+        document.getElementById(game).setAttribute("style", "display: block");
+        clean();
+
+        let numberofcards = document.getElementById(gameboard).querySelectorAll("button").length;
+
+        for (let cardno = 0; cardno < numberofcards; cardno++) {
+            document.getElementById(gameboard).children[cardno].innerHTML = shuffled[0];
+            shuffled.splice(0, 1);
+        }
+
+        const gamebuttons = document.getElementById(gameboard);
+
+        // Remove old listeners if needed, or stick with your inline event tracking:
+        gamebuttons.onclick = (event) => {
+          if (event.target.classList.contains("options")) {
+            const clickedButton = event.target;
+            document.getElementById(gameboard).children[clickedButton.title].innerHTML = shuffled[0];
+            shuffled.splice(0, 1);
+          }
+        };
+
+        const backbutton = document.getElementById("backtogames");
+        backbutton.onclick = () => {
+            document.getElementById(game).setAttribute("style", "display: none");
+            document.getElementById("whatGames").setAttribute("style", "display: block");
+        };
+
+    } catch (error) {
+        console.error("Error running game pipeline:", error);
     }
-    // const gamecards = allgamecards[gameid]
-    // console.log(gamecards)
-    let shuffled = [...gameData.items].sort(() => 0.5 - Math.random());
-    function clean() {
-        document.getElementById("whatGames").setAttribute("style", "display: none")
-    }
-    document.getElementById(game).setAttribute("style", "display: block")
-    clean()
-    let numberofcards = document.getElementById(gameboard).querySelectorAll("button").length
-//     take the cardno and get that many elements from gamecards and show those on buttons
-//     let shuffled = gamecards.sort(() => 0.5 - Math.random());
-    for (let cardno = 0; cardno < numberofcards; cardno++) {
-        document.getElementById(gameboard).children[cardno].innerHTML = shuffled[0]
-        shuffled.splice(0,1)
-    }
-    const gamebuttons = document.getElementById(gameboard);
-    gamebuttons.addEventListener("click", (event) => {
-      // Check if a button with class 'games' was clicked
-      if (event.target.classList.contains("options")) {
-        const clickedButton = event.target;
-        document.getElementById(gameboard).children[clickedButton.title].innerHTML = shuffled[0]
-        shuffled.splice(0,1)
-      }
-    });
-    const backbutton = document.getElementById("backtogames");
-    backbutton.addEventListener("click", () => {
-    // Change the style of the other element
-    document.getElementById(game).setAttribute("style", "display: none")
-    document.getElementById("whatGames").setAttribute("style", "display: block")
-});
 }
-

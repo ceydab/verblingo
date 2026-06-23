@@ -1,5 +1,5 @@
 console.log("games.js began")
-import allgamecards from "./games.json" with { type: "json" }
+import allgamecards from "../../games.json" with { type: "json" }
 
 
 export function games(gameid){

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    
+    <title>Verblingo | French Conjugation</title>
+	<script type="text/javascript" ></script>
+	<link rel="stylesheet" type="text/css" href="fr.css">
+</head>
+<body>
+	<nav id="upline">
+		<span id="titlenav" onclick="location.href='index.html'">Verblingo</span>
+		<span id="langChoose"><a href="fr.html">FR</a> |
+		<a href="de.html">DE</a> </span>
+	</nav>
+	<header id="pageName" onclick="location.href='index.html'">Verblingo<sup>🇫🇷</sup>
+		 <img id="flag" src="../fr.png" alt="french"></header>
+	<aside id="leftspace">
+
+	</aside>
+<main id="ask">
+	<article id="question"></article>
+	<article id="definition"></article><br>
+	<section id="options">
+	<button class="options" id="options_0" title="0"></button>
+	<button class="options" id="options_1" title="1"></button>
+	<button class="options" id="options_2" title="2"></button>
+	</section>
+	<button id="next">Next</button>
+</main>
+	
+
+<main id="whatQuestions">
+  <section class="verbIdentify"> <legend>Tense</legend>
+	<legend class="tenseType"> Indicatif: </legend>
+	  <label>
+	    <input type="checkbox" name="Tense" value="present" class="checkbox" id="Tense_0">
+	    Présent</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="pastSimple" class="checkbox" id="Tense_1">
+	    Passé simple</label>
+	<label>
+	    <input type="checkbox" name="Tense" value="imperfect" class="checkbox" id="Tense_2">
+	    Imparfait</label>
+	<label>
+	    <input type="checkbox" name="Tense" value="futureSimple" class="checkbox" id="Tense_3">
+	    Futur simple</label>
+		
+	<label>
+	    <input type="checkbox" name="Tense" value="presentPerfect" class="checkbox" id="Tense_4">
+	    Passé composé</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="pluperfect" class="checkbox" id="Tense_5">
+	    Plus-que-parfait</label>
+	<label>
+	    <input type="checkbox" name="Tense" value="pastAnterior" class="checkbox" id="Tense_6">
+	    Passé antérieur</label>
+	<label>
+	    <input type="checkbox" name="Tense" value="futureAnterior" class="checkbox" id="Tense_7">
+	    Futur antérieur</label>
+	
+<br><br>
+	<legend class="tenseType"> Subjonctif:</legend>
+		<label>
+		<input type="checkbox" name="Tense" value="presentSubjunctive" class="checkbox" id="Tense_8">
+	    Subjonctif présent</label>
+	  <label>
+	    <input type="checkbox" name="Tense" value="imperfectSubjunctive" class="checkbox" id="Tense_9">
+	    Subjonctif imparfait</label>
+	<label>
+	    <input type="checkbox" name="Tense" value="pastSubjunctive" class="checkbox" id="Tense_10">
+	    Subjonctif passé</label>
+	<label>
+	    <input type="checkbox" name="Tense" value="pluperfectSubjunctive" class="checkbox" id="Tense_11">
+	    Subjonctif plus-que-parfait</label>
+
+	
+<br><br>
+	<legend class="tenseType">Conditionnel</legend>
+		<label>
+			<input type="checkbox" name="Tense" value="imperfectSubjunctive" class="checkbox" id="Tense_12">
+			Conditionnel présent</label>
+		<label>
+			<input type="checkbox" name="Tense" value="pastSubjunctive" class="checkbox" id="Tense_13">
+			Conditionnel passé</label>
+		<label>
+			<input type="checkbox" name="Tense" value="pluperfectSubjunctive" class="checkbox" id="Tense_14">
+			Conditionnel passé II</label>
+		
+<br><br>
+	<legend class="tenseType">Impératif</legend>
+		<label>
+			<input type="checkbox" name="Tense" value="presentImperative" class="checkbox" id="Tense_15">
+			Impératif </label>
+		<label>
+			<input type="checkbox" name="Tense" value="pastImperative" class="checkbox" id="Tense_16">
+			Impératif passé</label>
+	
+
+  </section>
+  <br>
+  <button id="switchtype" >I want to choose the verbs myself</button>
+  
+
+  <section class="verbIdentify" id="regularSec">
+	  <legend class="verbType">Regularity</legend>
+	<label>
+	      <input type="checkbox" name="regularity" value="regular" class="checkbox" id="regularity_0" checked>
+	      Regular</label>
+		  <label>
+	      <input type="checkbox" name="regularity" value="irregular" class="checkbox" id="regularity_1" checked>
+	      Irregular</label>
+  </section>
+	<br>
+  <section class="verbIdentify" id="reflexiveSec"> 
+	<legend class="verbType">Include reflexive words:</legend>
+	  <label>
+	    <input type="radio" name="reflexivity" value="reflexive" class="checkbox" id="reflexivity_0" checked>
+	    Yes</label>
+	  <label>
+	    <input type="radio" name="reflexivity" value="not reflexive" class="checkbox" id="reflexivity_1">
+	    No</label>	 
+		<label>
+		<input type="radio" name="reflexivity" value="onlyreflexive" class="checkbox" id="reflexivity_2" >
+	    Only reflexive</label>
+  </section>
+  <br>
+	
+  <section class="verbIdentify" id="verbendSec"> 
+	 <legend class="verbType">Verbs ending with</legend>
+	    <label>
+	      <input type="checkbox" name="Verb ending with" value="-er" class="checkbox" id="Verbendingwith_0" checked>
+	      -er</label><label>
+	      <input type="checkbox" name="Verb ending with" value="-ir" class="checkbox" id="Verbendingwith_1" checked>
+	      -ir</label><label>
+	      <input type="checkbox" name="Verb ending with" value="-re" class="checkbox" id="Verbendingwith_2" checked>
+	      -re</label>
+		  <label>
+			<input type="checkbox" name="Verb ending with" value="-oir" class="checkbox" id="Verbendingwith_3" checked>
+			-oir</label>
+  </section>
+  
+	<!--
+  <table width="400"> <tr>Verbs with base number:</tr>
+    <tr>
+      <td><label>
+        <input type="checkbox" name="basenumber" value="one" id="basenumber_0" checked>
+        One</label></td>
+    
+      <td><label>
+        <input type="checkbox" name="basenumber" value="two" id="basenumber_1" checked>
+        Two</label></td>
+   
+      <td><label>
+        <input type="checkbox" name="basenumber" value="three" id="basenumber_2" checked>
+        Three</label></td>
+    
+      <td><label>
+        <input type="checkbox" name="basenumber" value="irregular" id="basenumber_3" checked>
+        Irregular</label></td>
+    </tr>
+  </table>-->
+  <section class="verbIdentify" id="typeTwoQuiz">
+	<legend id="oneByone">Choose a verb:</legend>
+	
+	<select id="verbChoosingform" name="verbsformchoose" title="Verb choose" size="5" multiple >
+	  <option value="aimer">aimer</option>
+	  <option value="aller">aller</option>
+	  <option value="avoir">avoir</option>
+	  <option value="descendre">descendre</option>
+	  <option value="être">être</option>
+	  <option value="étudier">étudier</option>
+	  <option value="faire">faire</option>
+	  <option value="manger">manger</option>
+	  <option value="parler">parler</option>
+	  <option value="prendre">prendre</option>
+	  <option value="donner">donner</option>
+	  <option value="demander">demander</option>
+	  <option value="trouver">trouver</option>
+	  <option value="passer">passer</option>
+	  <option value="rester">rester</option>
+	  <option value="porter">porter</option>
+	  <option value="montrer">montrer</option>
+	  <option value="pouvoir">pouvoir</option>
+	  <option value="mettre">mettre</option>
+	  <option value="dire">dire</option>
+	  <option value="devoir">devoir</option>
+	  <option value="vouloir">vouloir</option>
+	  <option value="savoir">savoir</option>
+	  <option value="falloir">falloir</option>
+	  <option value="voir">voir</option>
+	  <option value="rendre">rendre</option>
+	  <option value="venir">venir</option>
+	  <option value="comprendre">comprendre</option>
+	  <option value="tenir">tenir</option>
+	  <option value="continuer">continuer</option>
+	  <option value="penser">penser</option>
+	  <option value="suivre">suivre</option>
+	  <option value="connaitre">connaître</option>
+	  <option value="croire">croire</option>
+	  <option value="commencer">commencer</option>
+	  <option value="compter">compter</option>
+	  <option value="entendre">entendre</option>
+	  <option value="attendre">attendre</option>
+	  <option value="remettre">remettre</option>
+	  <option value="appeler">appeler</option>
+	  <option value="permettre">permettre</option>
+	  <option value="occuper">occuper</option>
+	  <option value="devenir">devenir</option>
+	  <option value="partir">partir</option>
+	  <option value="decider">decider</option>
+	  <option value="arriver">arriver</option>
+	  <option value="servir">servir</option>
+	  <option value="sembler">sembler</option>
+	  <option value="revenir">revenir</option>
+	  <option value="laisser">laisser</option>
+	  <option value="recevoir">recevoir</option>
+	  <option value="repondre">repondre</option>
+	  <option value="vivre">vivre</option>
+	  <option value="rappeler">rappeler</option>
+	  <option value="présenter">présenter</option>
+	  <option value="accepter">accepter</option>
+	  <option value="agir">agir</option>
+	  <option value="poser">poser</option>
+	  <option value="jouer">jouer</option>
+	  <option value="reconnaître">reconnaître</option>
+	  <option value="choisir">choisir</option>
+	  <option value="toucher">toucher</option>
+	  <option value="retrouver">retrouver</option>
+	  <option value="perdre">perdre</option>
+	  <option value="expliquer">expliquer</option>
+	  <option value="considérer">considérer</option>
+	  <option value="ouvrir">ouvrir</option>
+	  <option value="gagner">gagner</option>
+	  <option value="exister">exister</option>
+	  <option value="refuser">refuser</option>
+	  <option value="lire">lire</option>
+	  <option value="réussir">réussir</option>
+	  <option value="changer">changer</option>
+	  <option value="travailler">travailler</option>
+	  <option value="représenter">représenter</option>
+	  <option value="assurer">assurer</option>
+	  <option value="essayer">essayer</option>
+	  <option value="empêcher">empêcher</option>
+	  <option value="sortir">sortir</option>
+	  <option value="reprendre">reprendre</option>
+	  <option value="mener">mener</option>
+	  <option value="appartenir">appartenir</option>
+	  <option value="risquer">risquer</option>
+	  <option value="concerner">concerner</option>
+	  <option value="apprendre">apprendre</option>
+	  <option value="rencontrer">rencontrer</option>
+	  <option value="créer">créer</option>
+	  <option value="obtenir">obtenir</option>
+	  <option value="chercher">chercher</option>
+	  <option value="entrer">entrer</option>
+	  <option value="proposer">proposer</option>
+	  <option value="apporter">apporter</option>
+	  <option value="utiliser">utiliser</option>
+	  <option value="atteindre">atteindre</option>
+	  <option value="tenter">tenter</option>
+	  <option value="importer">importer</option>
+	  <option value="ajouter">ajouter</option>
+	  <option value="produire">produire</option>
+	  <option value="préparer">préparer</option>
+	  <option value="relever">relever</option>
+	  <option value="écrire">écrire</option>
+	  <option value="défendre">défendre</option>
+	  <option value="tirer">tirer</option>
+
+
+	</select><br>
+	<button id="addVerbs">Add</button> 
+	<br>
+	<textarea id="verbsSelected" title="Verbs" placeholder="Select to add verbs"></textarea><br>
+	
+	<button id="quizTypeTwo" >Start</button>
+	</section>
+	<br>
+	<button id="start" onclick="quizTypeOne()">Start</button>
+	
+</main>
+	
+
+
+
+<aside id="rightspace"></aside>
+<script type="text/javascript" src="fr.js" ></script>
+<script type="text/javascript" src="fr.json" ></script>		
+
+</body>
+</html>

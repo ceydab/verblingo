@@ -1,0 +1,86 @@
+#pageName{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    left: 0;
+    margin: auto;
+    color: #3c6e71;
+    position: relative;
+}
+
+#langChoose a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #3c6e71;
+}
+#langChoose a:hover{
+    color: #ffffff;
+}
+#langChoose{
+    float: right;
+   
+}
+#titlenav{
+    font-weight: bolder;
+    float: left;
+    font-size: 20px;
+    color: #3c6e71;
+}
+#upline{
+    background-color: #d9d9d9;
+    height: 35px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #3c6e71;
+
+}
+#upline span{
+    transform: translateY(30%);
+}
+
+img{
+    display: block;
+    margin: 20px;
+    width: 85%;
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+}
+#directory{
+    float: left;
+    width: 20%;
+    margin-left: 40px;
+    background-color: #d9d9d9;
+}
+#intro{
+    width: 30%;
+    border: 2px #d9d9d9 solid;
+    padding: 20px;
+    margin: auto;
+    left: 0;
+    color: #3c6e71;
+}
+h2{
+    background-color: #d9d9d9;
+    padding: 5px;
+}
+.info{
+    background-color: #ffffff;
+    border-bottom: 2px #d9d9d9 solid;
+    color: #284b63;
+}
+#rightSpace{
+    width: 30%;
+    float: right;
+
+}
+section {
+    display: block;
+}
+aside {
+    display: block;
+}
+main{
+    display: block;
+}

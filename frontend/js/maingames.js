@@ -1,5 +1,5 @@
 
-import {games} from "./games.js"
+import {games} from "../../games.json"
 
 
 // Select the section

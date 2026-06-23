@@ -1,7 +1,16 @@
 // server.js
 import express from 'express';
 import cors from 'cors';
-import { readVerbs, readGames } from './db.js';
+import { readVerbs } from './db.js';
+
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// serve static frontend files (html, js, css)
+app.use(express.static(__dirname));
 
 const app = express();
 app.use(cors()); // allow requests from frontend

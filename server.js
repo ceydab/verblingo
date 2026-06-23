@@ -64,6 +64,18 @@ app.get('/api/games/:gameid', (req, res) => {
     }
 });
 
+
+
+// Add this right before app.listen
+app.use((err, req, res, next) => {
+  console.error(`[Error Log] ${new Date().toISOString()}:`, err.stack);
+  res.status(err.status || 500).json({
+    error: {
+      message: err.message || 'Something went wrong on our end.',
+    }
+  });
+});
+
 app.listen(3000, () => {
   console.log('Server running at http://localhost:3000');
 });

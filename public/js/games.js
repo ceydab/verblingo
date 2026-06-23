@@ -1,13 +1,21 @@
 console.log("games.js began")
-import allgamecards from "../../games.json" with { type: "json" }
+import allgamecards from "../data/games.json" with { type: "json" }
 
 
 export function games(gameid){
     const game = "play"+gameid
     const gameboard = gameid +"board"
-    if (gameid == "game2"){gameid = "game1"}
-    const gamecards = allgamecards[gameid]
+    let targetId = gameid;
+    if (targetId == "game2"){targetId = "game1"}
+
+    const gameData = allgamecards.find(item => item.id === targetId);
+    if (!gameData) {
+        console.error(`Game data for ${targetId} not found!`);
+        return;
+    }
+    // const gamecards = allgamecards[gameid]
     // console.log(gamecards)
+    let shuffled = [...gameData.items].sort(() => 0.5 - Math.random());
     function clean() {
         document.getElementById("whatGames").setAttribute("style", "display: none")
     }
@@ -15,7 +23,7 @@ export function games(gameid){
     clean()
     let numberofcards = document.getElementById(gameboard).querySelectorAll("button").length
 //     take the cardno and get that many elements from gamecards and show those on buttons
-    let shuffled = gamecards.sort(() => 0.5 - Math.random());
+//     let shuffled = gamecards.sort(() => 0.5 - Math.random());
     for (let cardno = 0; cardno < numberofcards; cardno++) {
         document.getElementById(gameboard).children[cardno].innerHTML = shuffled[0]
         shuffled.splice(0,1)

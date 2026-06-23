@@ -1,7 +1,7 @@
 console.log("main.js began")
-import { prepareVerbs } from './userinput.js';
+import { prepareVerbs } from '../js/userinput.js';
 //node server.js before we start
-import {quizTypeOne} from "./de.js";
+import {quizTypeOne} from "../js/de.js";
 
 const btn = document.getElementById("start")
 btn.addEventListener('click', async () => {

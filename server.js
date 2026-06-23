@@ -3,6 +3,8 @@ import express from 'express';
 import cors from 'cors';
 import { readVerbs } from './db.js';
 import fs from 'fs';
+import 'dotenv/config'
+const port = process.env.PORT
 
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -76,6 +78,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Server running at http://localhost:3000');
 });

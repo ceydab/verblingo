@@ -1,0 +1,19 @@
+{
+  "name": "verblingo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "de.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceydab/verblingo.git"
+  },
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
+}

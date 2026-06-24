@@ -24,9 +24,10 @@ export function readVerbs(features, tenses) {
   const db = verbCollection.find({$or: features},{projection:tenses}).toArray(); // Fetch all documents
   return db
 }
-//
-// export function readGames(gameid) {
-//   const gameCollection = mongoose.connection.collection('games')
-//   const db = gameCollection.find({gameid: true},).toArray(); // Fetch all documents
-//   return db
-// }
+
+export function readGames(gameid) {
+  console.log("readgames working")
+  const gameCollection = mongoose.connection.collection('games')
+  const db = gameCollection.findOne({id: gameid}); // Fetch all documents
+  return db
+}

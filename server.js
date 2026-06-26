@@ -95,6 +95,10 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(port, () => {
-  console.log('Server running at http://localhost:3000');
-});
+export default app;
+
+if (process.env.NODE_ENV !== 'test') {
+    app.listen(port, () => {
+        console.log('Server running at http://localhost:3000');
+    });
+}

@@ -1,19 +1,9 @@
-console.log("games.js began");
-
-export async function games(gameid) {
+/*get game info and data
+* send the gaming logic to the frontend*/
+export async function games(gameid, shuffled) {
     const game = "play" + gameid;
     const gameboard = gameid + "board";
     try {
-        console.log(gameid)
-        // 1. Fetch the already-randomized data array from your server API
-        const response = await fetch(`/api/games/${gameid}`);
-        console.log("games.js cont")
-        if (!response.ok) throw new Error("Failed to fetch game data from API");
-
-        // This 'shuffled' variable is now populated directly by your server
-        let shuffled = await response.json();
-        console.log(shuffled)
-        // --- The rest of your UI logic remains exactly the same ---
         function clean() {
             document.getElementById("whatGames").setAttribute("style", "display: none");
         }

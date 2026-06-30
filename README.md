@@ -18,17 +18,21 @@ The project is structured as an Express monolith following industry best practic
 
 ```text
 verblingo/
-├── data-prep/               # Isolated data scripts and data files (Jupyter notebooks)
-├── public/                  # Static frontend sandbox served to the browser
-│   ├── assets/              # Media and image files
-│   ├── css/                 # Page-specific stylesheets
-│   ├── js/                  # Frontend behavior and API consumption scripts
-│   └── *.html               # Main application pages
-├── tests/                   # Test files 
-├── db.js                    # Centralized MongoDB connection logic via Mongoose
-├── server.js                # Express Server routing and API endpoints
-├── package.json             # Backend production dependencies
-└── README.md                # Project documentation
+├── data-prep/                      # Isolated data scripts and data files (Jupyter notebooks)
+├── public/                         # Static frontend sandbox served to the browser
+│   ├── assets/                     # Media and image files
+│   ├── css/                        # Page-specific stylesheets
+│   ├── js/                         # Frontend behavior and API consumption scripts
+│   └── *.html                      # Main application pages
+├── src/  
+│   ├── config/db.js                # Centralized MongoDB connection logic via Mongoose
+│   ├── middleware/validate.js      # MongoDB data validation based on schemas
+│   ├── schemas/                    # Expected data schemas in JSON
+│   ├── utils/logger.js
+│   ├── server.js                   # Express Server routing and API endpoints        
+├── tests/                                          
+├── package.json                    
+└── README.md                       
 ```
 
 ## Tech Stack
@@ -62,7 +66,7 @@ PORT =
 
 4. Start the server
 ```
-node server.js
+node src/server.js
 ```
 
 ## API Connection

@@ -1,11 +1,12 @@
 import express from 'express';
 import cors from 'cors';
-import {connectDB, readVerbs, readGames } from './db.js';
+import {connectDB, readVerbs, readGames } from './config/db.js';
 import 'dotenv/config'
-import logger from './logger.js'
+import logger from './utils/logger.js'
 
-import { validate } from './validate.js'
-import { gameIdParamSchema, getDbBodySchema } from './schemas.js'
+import { validate } from './middleware/validate.js'
+import { getDbBodySchema } from './schemas/verb_schema.js'
+import { gameIdParamSchema } from './schemas/game_schema.js'
 
 const PORT = process.env.PORT
 if (!PORT) {

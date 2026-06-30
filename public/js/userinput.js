@@ -1,4 +1,5 @@
 export function prepareVerbs() {
+    /* Obtain input from the user for the features and tenses*/
     let features = []
     let tenses = {}
 

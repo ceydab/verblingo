@@ -38,7 +38,8 @@ verblingo/
 
 - Database: MongoDB, Mongoose ORM
 
-- Testing: -
+- Testing: Jest, @playwright/test, Supertest
+
 
 ## Setup and Requirements
 Node.js v22.x

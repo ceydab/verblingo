@@ -2,7 +2,7 @@ import { describe, it, beforeAll, afterAll, expect } from '@jest/globals';
 import request from 'supertest';
 import mongoose from 'mongoose';
 // Import your express app instance
-import app from '../server.js';
+import app from '../src/server.js';
 
 describe('GET /api/games/:gameid', () => {
 

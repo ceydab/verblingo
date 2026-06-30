@@ -77,4 +77,11 @@ Queries the MongoDB database for verbs matching specific configurations.
 Endpoint: GET /api/games/:gameid:
 Description: Extracts data points for the specified game ID, shuffles the array securely on the server, and delivers a randomized subset to the UI.
 ## Testing
-...
+To test the api connection in server.js, run:
+```
+npm test
+```
+To test the gaming functionality, run:
+```
+npx playwright test
+```

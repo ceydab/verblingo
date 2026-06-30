@@ -15,14 +15,7 @@ export const gameIdParamSchema = z.object({
 // Matches the shape built by prepareVerbs() in the frontend.
 
 // Each entry in `features` filters on exactly one of these top-level
-// verb fields. NOTE: there is currently a frontend bug where the
-// "separable: true" case sends the key "separable:" (with a trailing
-// colon) instead of "separable" -- flagging here since it means that
-// particular filter silently matches no documents. The schema below
-// validates against the *correct* key; once the frontend bug is fixed,
-// requests will pass validation as expected. Until then, that specific
-// malformed payload will be rejected with a 400 rather than silently
-// querying for a meaningless field.
+// verb fields.
 const featureItemSchema = z
   .object({
     regular: z.boolean().optional(),
@@ -56,9 +49,21 @@ const TENSE_KEYS = [
   'meaning',
   'verb',
 ]
+// Validate the nested structures (e.g., Indikativ: { Perfekt: 1 })
+const nestedTenseGroup = z.record(z.string(), z.literal(1)).optional();
 
+const tenseSelectionSchema = z.object({
+  // Accept the flat required properties
+  meaning: z.literal(1).optional(),
+  verb: z.literal(1).optional(),
+
+  // Accept the nested categories created by the dots
+  Indikativ: nestedTenseGroup,
+  Konjunktiv: nestedTenseGroup,
+  Imperativ: nestedTenseGroup,
+}).catchall(z.literal(1)); // catchall handles any keys that remained flat strings
 // Selected-tenses shape: any subset of the known keys mapped to 1.
-const tenseSelectionSchema = z.record(z.enum(TENSE_KEYS), z.literal(1))
+// const tenseSelectionSchema = z.record(z.enum(TENSE_KEYS), z.literal(1))
 
 // Fallback shape sent when no tense checkbox is selected.
 const noTenseSelectedSchema = z
@@ -76,4 +81,3 @@ export const getDbBodySchema = z.object({
   features: featuresSchema,
   tenses: tensesSchema,
 })
- 

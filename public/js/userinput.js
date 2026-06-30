@@ -1,39 +1,21 @@
-console.log("userinput.js began")
-// document.getElementById("start").addEventListener("click", prepareVerbs)
-
 export function prepareVerbs() {
     let features = []
     let tenses = {}
-    function regularness() { //check regularity
-        let regularcheck = document.getElementById("regularity_0").checked //turns boolean
-        let irregularcheck = document.getElementById("regularity_1").checked
 
-        if (regularcheck === true && irregularcheck === false) {
-            features.push({"regular": true})
-        } else if (regularcheck === false && irregularcheck === true) {
-            features.push({"regular": false}) //only irregulars added
-        }
-        //default: no filtering on regularity
+    function pushBinaryFeature(trueId, falseId, key) {
+        const trueChecked = document.getElementById(trueId).checked
+        const falseChecked = document.getElementById(falseId).checked
+        if (trueChecked && !falseChecked) features.push({ [key]: true })
+        else if (!trueChecked && falseChecked) features.push({ [key]: false })
     }
 
-    function reflexiveness() { //check reflexivity
-        let reflexivecheck = document.getElementById("reflexivity_0").checked
-        let notreflexivecheck = document.getElementById("reflexivity_1").checked
-
-        if (notreflexivecheck === true && reflexivecheck === false) {
-            features.push({"reflexive": true}) // keep only not reflexive verbs
-        } else if (reflexivecheck === true && notreflexivecheck === false) {
-            features.push({"reflexive": false}) // keep only reflexive verbs
-        }
-        //default: no filtering on reflexivity
-    }
 
     function separabilitycheck() {
         let sepCheck = document.getElementById("separable").checked
         let insepCheck = document.getElementById("inseparable").checked
 
         if (sepCheck === true && insepCheck === false) {
-            features.push({"separable:": true})
+            features.push({"separable": true})
         }//remove insep
         else if (sepCheck === false && insepCheck === true) {
             features.push({"separable": false})
@@ -42,77 +24,47 @@ export function prepareVerbs() {
         //default: no filtering on separability
     }
 
-    function rootcheck() {
-        let rootCheck = document.getElementById("root_change").checked
-        let norootCheck = document.getElementById("no_root_change").checked
-
-        if (rootCheck === true && norootCheck === false) {
-            features.push({"root_change": true})
-        }//remove norootchange
-        else if (rootCheck === false && norootCheck === true) {
-            features.push({"root_change": false})
-        }//remove changing roots
-        //default: no filtering on root
-    }
+    const TENSE_CHECKBOX_MAP = [
+    ["Tense_0", "Indikativ.Präsens"],
+    ["Tense_1", "Indikativ.Präteritum"],
+    ["Tense_2", "Indikativ.Perfekt"],
+    ["Tense_3", "Indikativ.Plusquam"],
+    ["Tense_4", "Indikativ.Futur I"],
+    ["Tense_5", "Indikativ.Futur II"],
+    ["Tense_6", "Konjunktiv.Konjunktiv I"],
+    ["Tense_7", "Konjunktiv.Konjunktiv II"],
+    ["Tense_8", "Konjunktiv.Perfekt"],
+    ["Tense_9", "Konjunktiv.Plusquam"],
+    ["Tense_10", "Konjunktiv.Futur I"],
+    ["Tense_11", "Konjunktiv.Futur II"],
+    ["Tense_12", "Imperativ.Präsens"],
+    ]
 
     function whichTense() {
-        if (document.getElementById("Tense_0").checked === true) {
-            Object.assign(tenses, {'Indikativ.Präsens': 1})
+        for (const [checkboxId, tenseKey] of TENSE_CHECKBOX_MAP) {
+            if (document.getElementById(checkboxId).checked) {
+                tenses[tenseKey] = 1
+            }
         }
-        if (document.getElementById("Tense_1").checked === true) {
-            Object.assign(tenses, {'Indikativ.Präteritum': 1})
-        }
-        if (document.getElementById("Tense_2").checked === true) {
-            Object.assign(tenses, {'Indikativ.Perfekt': 1})
-        }
-        if (document.getElementById("Tense_3").checked === true) {
-            Object.assign(tenses, {'Indikativ.Plusquam': 1})
-        }
-        if (document.getElementById("Tense_4").checked === true) {
-            Object.assign(tenses, {'Indikativ.Futur I': 1})
-        }
-        if (document.getElementById("Tense_5").checked === true) {
-            Object.assign(tenses, {'Indikativ.Futur II': 1})
-        }
-        if (document.getElementById("Tense_6").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Konjunktiv I': 1})
-        }
-        if (document.getElementById("Tense_7").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Konjunktiv II': 1})
-        }
-        if (document.getElementById("Tense_8").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Perfekt': 1})
-        }
-        if (document.getElementById("Tense_9").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Plusquam': 1})
-        }
-        if (document.getElementById("Tense_10").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Futur I': 1})
-        }
-        if (document.getElementById("Tense_11").checked === true) {
-            Object.assign(tenses, {'Konjunktiv.Futur II': 1})
-        }
-        if (document.getElementById("Tense_12").checked === true) {
-            Object.assign(tenses, {'Imperativ.Präsens': 1})
 
+        if (Object.keys(tenses).length === 0) {
+            tenses = { regular: 0, root_change: 0, separable: 0, reflexive: 0 }
+        } else {
+            tenses.meaning = 1
+            tenses.verb = 1
         }
-        if (Object.keys(tenses).length === 0){
-            tenses = {'regular': 0,'root_change':0,'separable':0,'reflexive':0}
-        }
-        else{
-            Object.assign(tenses,{'meaning': 1})
-            Object.assign(tenses,{'verb': 1})
-        }
-    } //default: all tenses brought
-
-    function clean() {
-        document.getElementById("whatQuestions").remove() //page clean
     }
 
-    regularness()
-    // reflexiveness()
+
+    function clean() {
+        document.getElementById("whatQuestions")?.remove() //page clean
+    }
+
+    pushBinaryFeature("regularity_0", "regularity_1", "regular")
+    pushBinaryFeature("root_change", "no_root_change", "root_change")
+    // pushBinaryFeature("reflexivity_0", "reflexivity_1", "reflexive")
     separabilitycheck()
-    rootcheck()
+
     whichTense()
 
 

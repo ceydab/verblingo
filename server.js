@@ -1,14 +1,14 @@
 // server.js
 import express from 'express';
 import cors from 'cors';
-import { readVerbs, readGames } from './db.js';
+import {connectDB, readVerbs, readGames } from './db.js';
 import fs from 'fs';
 import 'dotenv/config'
 const port = process.env.PORT
 
 import path from 'path';
 import { fileURLToPath } from 'url';
-
+await connectDB()
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

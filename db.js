@@ -1,33 +1,47 @@
-console.log("db.js began")
 import mongoose from 'mongoose'
 import 'dotenv/config'
-const uri = process.env.MONGO_URI
+import logger from './logger.js'
 
-async function connectDB() {
+const uri = process.env.MONGO_URI
+if (!uri) {
+  /* Checks if the environment variable exists*/
+  logger.fatal('MONGO_URI is not defined. Check your .env file.')
+  process.exit(1)
+}
+export async function connectDB() {
+   /* Using mongoodse connect to mongodb*/
   try {
-    await mongoose.connect(uri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    console.log("Connected to MongoDB!");
+    await mongoose.connect(uri);
+    logger.info('Connected to MongoDB')
   } catch (error) {
-    console.error("MongoDB connection error:", error);
-    process.exit(1);
+    logger.error({ err: error }, 'MongoDB connection error')
+    throw error // let the caller (server entrypoint) decide whether to exit
   }
 }
 
-connectDB();
 
-export function readVerbs(features, tenses) {
-
-  const verbCollection = mongoose.connection.collection('verbs')
-  const db = verbCollection.find({$or: features},{projection:tenses}).toArray(); // Fetch all documents
+export async function readVerbs(features, tenses) {
+ /* read the verbs collection
+ * throws if not found */
+  try {
+  const verbCollection = mongoose.connection.collection('verbs');
+  const db = await verbCollection.find({$or: features},{projection:tenses}).toArray(); // Fetch all documents
   return db
+  } catch(error){
+    logger.error({ err: error, features, tenses }, 'Failed to read verbs')
+    throw error
+  }
 }
 
-export function readGames(gameid) {
-  console.log("readgames working")
+export async function readGames(gameid) {
+   /* read the games collection, bring a single game
+   * throws if not found*/
+  try {
   const gameCollection = mongoose.connection.collection('games')
-  const db = gameCollection.findOne({id: gameid}); // Fetch all documents
+  const db = await gameCollection.findOne({id: gameid}); // Fetch all documents
   return db
+  } catch (error){
+    logger.error({ err: error, gameid }, 'Failed to read game')
+    throw error
+  }
 }

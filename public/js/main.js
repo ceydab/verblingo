@@ -1,6 +1,8 @@
-console.log("main.js began")
+/*Final verb conjugation logic implementation:
+* get the user input
+* connect to db and get the data
+* send the data to quiz prod*/
 import { prepareVerbs } from '../js/userinput.js';
-//node server.js before we start
 import {quizTypeOne} from "../js/de.js";
 
 const btn = document.getElementById("start")

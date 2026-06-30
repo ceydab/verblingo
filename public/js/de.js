@@ -1,6 +1,9 @@
-console.log("de.js began")
 export function quizTypeOne(db) {
-
+/* Verb conjugation question logic implementation
+* gets the data extracted based on the user input
+* assigns the question elements and options randomly
+* based on the answer, marks the question as correct or wrong
+* lets the next button appear*/
 	function prepareQuestion() {
 		document.getElementById("ask").setAttribute("style", "display:block")
 		document.getElementById("next").setAttribute("style", "display: none")

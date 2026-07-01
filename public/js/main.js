@@ -5,24 +5,50 @@
 import { prepareVerbs } from '../js/userinput.js';
 import {quizTypeOne} from "../js/de.js";
 
-const btn = document.getElementById("start")
-btn.addEventListener('click', async () => {
-  // 1. Get current user input
-  const { features, tenses } = prepareVerbs();
+// const DB_ENDPOINT = '/get-db';
+const DB_ENDPOINT = window.__APP_CONFIG__.dbEndpoint;
+const startBtn = document.getElementById('start');
+startBtn.addEventListener('click', handleStart);
 
-  // 2. Process it in db.js
-  const response = await fetch('http://localhost:3000/get-db', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ features, tenses })
-  });
+async function handleStart() {
+	const { features, tenses } = prepareVerbs();
 
-  const db = await response.json();
-  console.log('DB data from MongoDB:', db);
+	setLoading(true);
+	try {
+		const db = await fetchVerbDb(features, tenses);
+		quizTypeOne(db);
+	} catch (error) {
+		console.error('Failed to load quiz data:', error);
+		showError('Could not load the quiz. Please try again.');
+	} finally {
+		setLoading(false);
+	}
+}
 
-  // 3. Use the result
-  quizTypeOne(db)
+/**
+ * Fetches verb data matching the given features/tenses.
+ * @throws {Error} if the request fails or the server returns an error status.
+ */
+async function fetchVerbDb(features, tenses) {
+	const response = await fetch(DB_ENDPOINT, {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify({ features, tenses }),
+	});
 
-  // Example: show on page
-  // document.body.insertAdjacentHTML('beforeend', `<p>${db.message}</p>`);
-});
+	if (!response.ok) {
+		throw new Error(`Server responded with ${response.status}`);
+	}
+
+	return response.json();
+}
+
+function setLoading(isLoading) {
+	startBtn.disabled = isLoading;
+	startBtn.textContent = isLoading ? 'Loading…' : 'Start';
+}
+
+function showError(message) {
+	// Swap this out for a nicer UI element if one exists on the page.
+	alert(message);
+}

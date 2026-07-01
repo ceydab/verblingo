@@ -5,7 +5,7 @@ The app is composed of the following functionalities:
 
 1. Conjugations: The user can practice verb conjugations. The user chooses the options from the list, such as what tenses to practice, what type of verbs (regular-irregular etc.) to practice. Then, the user is presented with a conjugation quiz.
 
-    1.1 Programming: The database in generated manually and uploaded to mongodb. Algorithm: Query specific verbs from MongoDB instantly based on selected grammatical features and tenses.
+    1.1 Programming: The database is generated manually and uploaded to mongodb. Algorithm: Query specific verbs from MongoDB instantly based on selected grammatical features and tenses.
 
 
 2. Speaking Games: The users can find games to play in order to practice their speaking skills. The user is presented with several games. For each game, there is a short explanation as to how to play and the items that the users need to speak about.
@@ -23,6 +23,13 @@ verblingo/
 │   ├── assets/                     # Media and image files
 │   ├── css/                        # Page-specific stylesheets
 │   ├── js/                         # Frontend behavior and API consumption scripts
+│   │   ├── quizLogic.js            # Pure, language-agnostic quiz selection logic
+│   │   ├── quizUI.js               # DOM wiring for the quiz, shared across languages
+│   │   ├── de.js                   # German-specific config (mood keys) over quizUI
+│   │   ├── games.js                # Speaking games DOM wiring
+│   │   ├── maingames.js            # Games menu bootstrap
+│   │   ├── main.js                 # Quiz bootstrap
+│   │   └── userinput.js 
 │   └── *.html                      # Main application pages
 ├── src/  
 │   ├── config/db.js                # Centralized MongoDB connection logic via Mongoose
@@ -41,6 +48,10 @@ verblingo/
 - Backend: Node.js, Express.js
 
 - Database: MongoDB, Mongoose ORM
+
+- Validation: Zod
+
+- Logging: structured server-side logging (see src/utils/logger.js)
 
 - Testing: Jest, @playwright/test, Supertest
 
@@ -66,7 +77,7 @@ PORT =
 
 4. Start the server
 ```
-node src/server.js
+npm start
 ```
 
 ## API Connection
@@ -77,11 +88,23 @@ Queries the MongoDB database for verbs matching specific configurations.
 Endpoint: GET /api/games/:gameid:
 Description: Extracts data points for the specified game ID, shuffles the array securely on the server, and delivers a randomized subset to the UI.
 ## Testing
-To test the api connection in server.js, run:
+This project has three layers of test coverage, all under tests/:
+
+Unit tests (Jest) — pure logic in isolation, e.g. verb/decoy selection in quizLogic.js.
+
+Integration tests (Jest + Supertest) — API endpoints (/get-db, /api/games/:gameid), including validation and status codes.
+
+End-to-end tests (Playwright) — full browser flows for both the conjugation quiz and the speaking games.
+
+Run unit and integration tests:
 ```
 npm test
 ```
-To test the gaming functionality, run:
+Run end-to-end tests after starting the server:
 ```
 npx playwright test
+```
+Run all tests after starting the server:
+```
+npm run test:all
 ```

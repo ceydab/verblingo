@@ -1,9 +1,9 @@
 /*get game info and data
 * send the gaming logic to the frontend*/
 export async function games(gameid, shuffled) {
-    const game = "play" + gameid;
-    const gameboard = gameid + "board";
     try {
+        const game = "play" + gameid;
+        const gameboard = gameid + "board";
         function clean() {
             document.getElementById("whatGames").setAttribute("style", "display: none");
         }

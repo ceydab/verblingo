@@ -5,31 +5,30 @@
 
 import { games } from './games.js';
 
-
+const DEFAULT_GAME_ID = 'game1'
 // Select the section
 const gameOptions = document.getElementById("gameoptions");
 if (!gameOptions) {
   console.error('No #gameoptions element found');
-
+} else {
+	gameOptions.addEventListener('click', handleGameOptionClick);
 }
-console.log("hello")
-// Add an event listener for clicks
-gameOptions.addEventListener("click", async(event) => {
-  // Check if a button with class 'games' was clicked
-  let gameid = "game1"
-  if (event.target.classList.contains("games")) {
-    const clickedButton = event.target;
-    gameid = clickedButton.id
+
+async function handleGameOptionClick(event) {
+  const clickedButton = event.target.closest('.games')
+  const gameId = clickedButton ? clickedButton.id : DEFAULT_GAME_ID;
+  try {
+    const shuffled = await fetchGameData(gameId)
+    games(gameId, shuffled)
+  } catch (error) {
+    console.error('Failed to start game:', error);
   }
-  console.log(gameid)
-  // 1. Fetch the already-randomized data array from your server API
-  const response = await fetch(`/api/games/${gameid}`);
-  console.log("games.js cont")
-  if (!response.ok) throw new Error("Failed to fetch game data from API");
+}
 
-  // This 'shuffled' variable is now populated directly by your server
-  let shuffled = await response.json();
-  console.log(shuffled)
-  games(gameid, shuffled)
-});
-
+async function fetchGameData(gameId) {
+	const response = await fetch(`/api/games/${gameId}`);
+	if (!response.ok) {
+		throw new Error(`Failed to fetch game data (status ${response.status})`);
+	}
+	return response.json();
+}

@@ -1,100 +1,140 @@
-export function quizTypeOne(db) {
 /* Verb conjugation question logic implementation
 * gets the data extracted based on the user input
 * assigns the question elements and options randomly
 * based on the answer, marks the question as correct or wrong
 * lets the next button appear*/
-	function prepareQuestion() {
-		document.getElementById("ask").setAttribute("style", "display:block")
-		document.getElementById("next").setAttribute("style", "display: none")
+export function quizTypeOne(db) {
+	const MOOD_KEYS = ["Indikativ", "Konjunktiv", "Imperativ"];
+	const OPTION_COUNT = 3;
 
-		// Pick a random verb
-		const randomVerb = db[Math.floor(Math.random() * db.length)];
+	const askEl = document.getElementById("ask");
+	const nextEl = document.getElementById("next");
+	const questionEl = document.getElementById("question");
+	const definitionEl = document.getElementById("definition");
+	const optionsEl = document.getElementById("options");
+	const optionEls = Array.from(optionsEl.children); // options_0, options_1, options_2
 
-		// Pick a random type key from the known keys
-		const postypeKeys = ["Indikativ", "Konjunktiv","Imperativ"];
-		const typeKeys = postypeKeys.filter(key => randomVerb.hasOwnProperty(key))
-		const typeKey = typeKeys[Math.floor(Math.random() * typeKeys.length)];
-		const typeObject = randomVerb[typeKey];
+	/** @type {number|null} index (within optionEls) of the correct answer */
+	let correctIndex = null;
 
-		// Pick a random time key inside the chosen verb
-		const timeKeys = Object.keys(typeObject);
-		const timeKey = timeKeys[Math.floor(Math.random() * timeKeys.length)];
+	init();
 
-		// Pick a random pronoun inside the chosen time key
-		const pronKeys = Object.keys(typeObject[timeKey]);
-		const pronKey = pronKeys[Math.floor(Math.random() * pronKeys.length)];
-		// Get the conjugation
-		const conjugation = typeObject[timeKey][pronKey];
+	function init() {
+		// Listeners are attached once, not per-question, to avoid piling up
+		// duplicate handlers (and duplicate grading) on every new question.
+		optionsEl.addEventListener("mousedown", handleAnswerClick);
+		nextEl.addEventListener("click", handleNextClick);
 
-		let verb = randomVerb.verb
-		let meaning = randomVerb.meaning
-		let type = typeKey
-		let tense= timeKey
-		let pronoun = pronKey
-		let remainingPronKeys = pronKeys.filter(k => k !== pronKey)
-		const shuffled = remainingPronKeys.sort(() => 0.5 - Math.random());
-		const secondPronKey = shuffled[0];
-		const thirdPronKey = shuffled[1];
-		let option1 = typeObject[timeKey][secondPronKey]
-		let option2 = typeObject[timeKey][thirdPronKey]
-		do {
-			let remainingPronKeys = pronKeys.filter(k => k !== pronKey)
-			let shuffled = remainingPronKeys.sort(() => 0.5 - Math.random());
-			let secondPronKey = shuffled[0];
-			let thirdPronKey = shuffled[1];
-			option1 = typeObject[timeKey][secondPronKey]
-			option2 = typeObject[timeKey][thirdPronKey]
-		}while (conjugation ===option1 || conjugation ===option2 || option1 ===option2)
+		prepareQuestion();
+	}
 
-		document.getElementById("question").innerHTML =type +" " +tense+ "<br><br>"  + "<span id='pronounverb'>" + pronoun + " " + "<span id='verb'>" +verb + "</span>"+ "</span>"
-		//question sent in the order of subject, verb, tense
-		document.getElementById("definition").innerHTML = meaning
-		//definition of the verb shown
+	function handleNextClick() {
+		resetOptionStyles();
+		prepareQuestion();
+	}
 
-		let correctOptionNo = Math.floor(Math.random() * 3) //returns a random no among options
-		let i = [0,1,2]
+	function handleAnswerClick(event) {
+		const clickedIndex = optionEls.indexOf(event.target);
+		if (clickedIndex === -1 || correctIndex === null) return; // click wasn't on an option, or already answered
 
-		// Remove the element
-		i.splice(correctOptionNo, 1);
-		document.getElementById("options").children[correctOptionNo].innerHTML = conjugation
-		document.getElementById("options").children[i[0]].innerHTML = option1
-		document.getElementById("options").children[i[1]].innerHTML = option2
+		const isCorrect = clickedIndex === correctIndex;
+		event.target.style.backgroundColor = isCorrect ? "#70e000" : "#f52900";
 
-		document.getElementById("options").addEventListener("mousedown", showResult)
-
-		function showResult(event) {
-			let answerGivenId = event.target.id
-			//given answer's id taken
-
-			if (answerGivenId == document.getElementById("options").children[correctOptionNo].id) {
-				//given answer's id and correct answer's id compared
-				document.getElementById(answerGivenId).setAttribute("style", "background-color: #70e000")
-				document.getElementById("next").setAttribute("style", "display: inline-block")
-				correctOptionNo = ""
-				answerGivenId = ""
-				//empty the variables for taking new numbers
-			} else {
-				document.getElementById(answerGivenId).setAttribute("style", "background-color: #f52900")
-				document.getElementById("options").setAttribute("style", "background-color:initial")
-				// document.getElementById(answerGivenId).onmouseup = function(){
-				// document.getElementById(answerGivenId).setAttribute("style", "background-color:auto")}
-
-			}
+		if (isCorrect) {
+			nextEl.style.display = "inline-block";
+			correctIndex = null; // lock further answers until "next" is clicked
+		} else {
+			optionsEl.style.backgroundColor = "initial";
 		}
 	}
 
+	function resetOptionStyles() {
+		optionEls.forEach((el) => (el.style.backgroundColor = ""));
+	}
 
-	prepareQuestion(db)
+	function prepareQuestion() {
+		askEl.style.display = "block";
+		nextEl.style.display = "none";
 
+		const { verb, meaning, mood, tense, pronoun, conjugation, decoys } =
+			pickQuestion(db);
 
-	document.getElementById("next").addEventListener("click", getNext)
+		questionEl.innerHTML =
+			`${mood} ${tense}<br><br>` +
+			`<span id="pronounverb">${pronoun} <span id="verb">${verb}</span></span>`;
+		definitionEl.textContent = meaning;
 
-	function getNext() {
-		document.getElementById("options_0").setAttribute("style", "background-color:auto")
-		document.getElementById("options_1").setAttribute("style", "background-color:auto")
-		document.getElementById("options_2").setAttribute("style", "background-color:auto")
+		renderOptions(conjugation, decoys);
+	}
 
-		prepareQuestion()
+	/**
+	 * Selects a random verb/mood/tense/pronoun, plus two distinct decoy
+	 * conjugations drawn from other pronouns in the same tense.
+	 */
+	function pickQuestion(verbs) {
+		const randomVerb = pickRandom(verbs);
+
+		const moodKeys = MOOD_KEYS.filter((key) => randomVerb.hasOwnProperty(key));
+		const mood = pickRandom(moodKeys);
+		const moodObject = randomVerb[mood];
+
+		const tense = pickRandom(Object.keys(moodObject));
+		const tenseObject = moodObject[tense];
+
+		const pronounKeys = Object.keys(tenseObject);
+		const pronoun = pickRandom(pronounKeys);
+		const conjugation = tenseObject[pronoun];
+
+		const decoys = pickDecoys(tenseObject, pronounKeys, pronoun, conjugation);
+
+		return {
+			verb: randomVerb.verb,
+			meaning: randomVerb.meaning,
+			mood,
+			tense,
+			pronoun,
+			conjugation,
+			decoys,
+		};
+	}
+
+	/**
+	 * Picks two decoy conjugations (from other pronouns) that are distinct
+	 * from each other and from the correct answer, avoiding duplicate
+	 * options in the UI.
+	 */
+	function pickDecoys(tenseObject, pronounKeys, correctPronoun, correctConjugation) {
+		const otherPronouns = pronounKeys.filter((k) => k !== correctPronoun);
+
+		let decoyA, decoyB;
+		do {
+			const [pA, pB] = shuffle(otherPronouns);
+			decoyA = tenseObject[pA];
+			decoyB = tenseObject[pB];
+		} while (
+			decoyA === correctConjugation ||
+			decoyB === correctConjugation ||
+			decoyA === decoyB
+		);
+
+		return [decoyA, decoyB];
+	}
+
+	/** Renders the correct answer + decoys into the option elements in random order. */
+	function renderOptions(conjugation, decoys) {
+		const values = shuffle([conjugation, ...decoys]);
+		correctIndex = values.indexOf(conjugation);
+
+		for (let i = 0; i < OPTION_COUNT; i++) {
+			optionEls[i].textContent = values[i];
+		}
+	}
+
+	function pickRandom(arr) {
+		return arr[Math.floor(Math.random() * arr.length)];
+	}
+
+	function shuffle(arr) {
+		return [...arr].sort(() => 0.5 - Math.random());
 	}
 }

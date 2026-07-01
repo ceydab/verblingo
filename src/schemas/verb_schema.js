@@ -18,25 +18,6 @@ const featureItemSchema = z
 
 export const featuresSchema = z.array(featureItemSchema).nonempty()
 
-// The 13 known mongo projection paths whichTense() can produce, plus
-// the "meaning"/"verb" fields it adds when any tense is selected.
-const TENSE_KEYS = [
-  'Indikativ.Präsens',
-  'Indikativ.Präteritum',
-  'Indikativ.Perfekt',
-  'Indikativ.Plusquam',
-  'Indikativ.Futur I',
-  'Indikativ.Futur II',
-  'Konjunktiv.Konjunktiv I',
-  'Konjunktiv.Konjunktiv II',
-  'Konjunktiv.Perfekt',
-  'Konjunktiv.Plusquam',
-  'Konjunktiv.Futur I',
-  'Konjunktiv.Futur II',
-  'Imperativ.Präsens',
-  'meaning',
-  'verb',
-]
 // Validate the nested structures (e.g., Indikativ: { Perfekt: 1 })
 const nestedTenseGroup = z.record(z.string(), z.literal(1)).optional();
 

@@ -1,11 +1,12 @@
 /*Test the game functionality*/
 import { test, expect } from '@playwright/test';
-
+import 'dotenv/config'
+const PORT = process.env.PORT
 test.describe('Game UI Flow', () => {
 
   test.beforeEach(async ({ page }) => {
     // Go to your local development URL before each test
-    await page.goto('http://localhost:3000/games.html');
+    await page.goto(`http://localhost:${PORT}/games.html`);
   });
 
   test('should load the board with shuffled cards when a game button is clicked', async ({ page }) => {

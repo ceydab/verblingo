@@ -1,11 +1,12 @@
 /*Test the quiz functionality*/
 import { test, expect } from '@playwright/test';
+import 'dotenv/config'
+const PORT = process.env.PORT
 
-// TODO: confirm the actual page path if it isn't quiz.html
 test.describe('Verb Quiz UI Flow', () => {
 
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:3000/de.html');
+    await page.goto(`http://localhost:${PORT}/de.html`);
   });
 
   test('should load a question with three options when start is clicked', async ({ page }) => {

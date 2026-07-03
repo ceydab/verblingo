@@ -1,0 +1,35 @@
+steps:
+  # Install dependencies
+  - name: 'node:22'
+    entrypoint: npm
+    args: ['ci']
+
+  # Run unit + integration tests before deploying.
+  # NOTE: this needs a reachable test MongoDB (MONGO_TEST_URI), which is
+  # NOT the same database as production. See secrets section below.
+  - name: 'node:22'
+    entrypoint: npm
+    args: ['test']
+    secretEnv: ['MONGO_TEST_URI']
+
+  # Deploy to App Engine. MONGO_URI is injected from Secret Manager,
+  # never written to disk or logged.
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: bash
+    args:
+      - '-c'
+      - |
+        gcloud app deploy --set-env-vars MONGO_URI=$$MONGO_URI --quiet
+    secretEnv: ['MONGO_URI']
+
+availableSecrets:
+  secretManager:
+    - versionName: projects/$PROJECT_ID/secrets/mongo-uri/versions/latest
+      env: 'MONGO_URI'
+    - versionName: projects/$PROJECT_ID/secrets/mongo-test-uri/versions/latest
+      env: 'MONGO_TEST_URI'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+timeout: '1200s'

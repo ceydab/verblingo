@@ -6,7 +6,13 @@ import mongoose from 'mongoose';
 import app from '../src/server.js';
 
 describe('GET /api/games/:gameid', () => {
+  const FIXTURE_MARKER = '__test_fixture__'; // tags our docs so cleanup only touches these
 
+  const fixtureGame = {
+    id: 'game1',
+    items: ['testItemA', 'testItemB', 'testItemC'],
+    _fixtureTag: FIXTURE_MARKER,
+  };
   // Connect to a test database before running tests
   beforeAll(async () => {
     // Highly recommended to use a separate test database URI here!
@@ -14,10 +20,12 @@ describe('GET /api/games/:gameid', () => {
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(testMongoUri);
     }
+    await mongoose.connection.collection('games').insertOne(fixtureGame);
   });
 
   // Clean up database connection after tests finish
   afterAll(async () => {
+    await mongoose.connection.collection('games').deleteMany({ _fixtureTag: FIXTURE_MARKER });
     await mongoose.connection.close();
   });
 

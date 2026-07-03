@@ -9,14 +9,14 @@ import { validate } from './middleware/validate.js'
 import { getDbBodySchema } from './schemas/verb_schema.js'
 import { gameIdParamSchema } from './schemas/game_schema.js'
 
-const PORT = process.env.PORT
-if (!PORT) {
-    /* Make sure port exists in env*/
-  logger.fatal('PORT is not defined. Check your .env file.')
-  process.exit(1)
-}
-
-await connectDB()
+// const PORT = process.env.PORT
+// if (!PORT) {
+//     /* Make sure port exists in env*/
+//   logger.fatal('PORT is not defined. Check your .env file.')
+//   process.exit(1)
+// }
+//
+// await connectDB()
 
 // serve static frontend files (html, js, css)
 const app = express();
@@ -77,7 +77,22 @@ app.use((err, req, res, next) => {
 
 export default app;
 
+// if (process.env.NODE_ENV !== 'test') {
+//     app.listen(PORT, () => {
+//         logger.info(`Server running at http://localhost:${PORT}`);
+//     });
+// }
+
 if (process.env.NODE_ENV !== 'test') {
+    const PORT = process.env.PORT
+    if (!PORT) {
+        /* Make sure port exists in env*/
+        logger.fatal('PORT is not defined. Check your .env file.')
+        process.exit(1)
+    }
+
+    await connectDB()
+
     app.listen(PORT, () => {
         logger.info(`Server running at http://localhost:${PORT}`);
     });

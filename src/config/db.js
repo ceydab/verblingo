@@ -3,15 +3,16 @@ import mongoose from 'mongoose'
 import 'dotenv/config'
 import logger from '../utils/logger.js'
 
-const uri = process.env.MONGO_URI
-if (!uri) {
-  /* Checks if the environment variable exists*/
-  logger.fatal('MONGO_URI is not defined. Check your .env file.')
-  process.exit(1)
-}
+
 export async function connectDB() {
-   /* Using mongoodse connect to mongodb*/
+   /* Using mongoose connect to mongodb*/
   try {
+    const uri = process.env.MONGO_URI
+    if (!uri) {
+      /* Checks if the environment variable exists*/
+      logger.fatal('MONGO_URI is not defined. Check your .env file.')
+      process.exit(1)
+    }
     await mongoose.connect(uri);
     logger.info('Connected to MongoDB')
   } catch (error) {

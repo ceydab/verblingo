@@ -8,7 +8,8 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:e2e": "playwright test",
     "test:all": "npm test && npm run test:e2e",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "deploy": "gcloud app deploy --set-env-vars MONGO_URI=$MONGO_URI",
   },
   "jest": {
     "testEnvironment": "node",

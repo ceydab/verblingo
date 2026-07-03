@@ -1,3 +1,4 @@
+/*Test the quiz functionality*/
 import { test, expect } from '@playwright/test';
 
 // TODO: confirm the actual page path if it isn't quiz.html

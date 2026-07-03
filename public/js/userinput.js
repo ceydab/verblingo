@@ -1,3 +1,4 @@
+/*Connect to the front end and get user request for the conjugation quiz*/
 export function prepareVerbs() {
     /* Obtain input from the user for the features and tenses*/
     let features = []

@@ -1,3 +1,4 @@
+/*Test the conjugation quiz algorithm*/
 import { describe, it, expect } from '@jest/globals';
 import { pickRandom, shuffle, pickDecoys, pickQuestion } from '../public/js/quizLogic.js';
 

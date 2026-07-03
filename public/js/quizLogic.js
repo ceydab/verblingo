@@ -4,8 +4,7 @@
  * Works with any verb object shaped as:
  *   { verb, meaning, [moodKey]: { [tense]: { [pronoun]: conjugation } }, ... }
  * where `moodKey` is one of the mood keys passed in by the caller (e.g.
- * German: "Indikativ"/"Konjunktiv"/"Imperativ"; Spanish:
- * "Indicativo"/"Subjuntivo"/"Imperativo").
+ * German: "Indikativ"/"Konjunktiv"/"Imperativ";
  */
 
 /** Returns a random element of `arr`. */

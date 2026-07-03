@@ -1,3 +1,4 @@
+/*Test the game functionality*/
 import { test, expect } from '@playwright/test';
 
 test.describe('Game UI Flow', () => {

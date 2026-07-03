@@ -1,3 +1,4 @@
+/*DB connection with mongodb atlas*/
 import mongoose from 'mongoose'
 import 'dotenv/config'
 import logger from '../utils/logger.js'

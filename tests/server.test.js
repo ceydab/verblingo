@@ -1,3 +1,4 @@
+/*Test the API connection*/
 import { describe, it, beforeAll, afterAll, expect } from '@jest/globals';
 import request from 'supertest';
 import mongoose from 'mongoose';

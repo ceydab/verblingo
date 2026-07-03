@@ -1,3 +1,4 @@
+/*Set the api connection*/
 import express from 'express';
 import cors from 'cors';
 import {connectDB, readVerbs, readGames } from './config/db.js';

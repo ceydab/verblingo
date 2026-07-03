@@ -19,7 +19,6 @@ steps:
     args:
       - '-c'
       - |
-#        gcloud app deploy --set-env-vars MONGO_URI=$$MONGO_URI --quiet
         cat <<EOF >> app.yaml
         env_variables:
           MONGO_URI: "$$MONGO_URI"

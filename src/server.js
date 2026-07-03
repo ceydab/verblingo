@@ -1,4 +1,4 @@
-/*Set the api connection*/
+/*Set the api connection for mongodb*/
 import express from 'express';
 import cors from 'cors';
 import {connectDB, readVerbs, readGames } from './config/db.js';

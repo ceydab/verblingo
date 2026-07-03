@@ -19,6 +19,7 @@ steps:
     args:
       - '-c'
       - |
+        printf '\n' >> app.yaml
         cat <<EOF >> app.yaml
         env_variables:
           MONGO_URI: "$$MONGO_URI"

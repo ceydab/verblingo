@@ -1,7 +1,7 @@
-body{
-    font-family: "Century Gothic";
-    font-weight: normal;
-}
+/*body{*/
+/*    font-family: "Century Gothic";*/
+/*    font-weight: normal;*/
+/*}*/
 #gameoptions{
     text-align: justify;
     display: flex;
@@ -154,6 +154,7 @@ sup{
     float: left;
     font-size: 20px;
     color: #DD0000;
+    cursor: pointer;
 }
 #upline{
     background-color: #FFCE00;

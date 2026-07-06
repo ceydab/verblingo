@@ -1,3 +1,8 @@
+body{
+    font-family: "Cambria";
+    font-weight: normal;
+}
+
 #pageName{
     font-size: 40px;
     font-weight: 700;

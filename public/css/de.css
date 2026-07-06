@@ -1,7 +1,7 @@
-body{
-    font-family: "Century Gothic";
-    font-weight: normal;
-}
+/*body{*/
+/*    font-family: "Century Gothic";*/
+/*    font-weight: normal;*/
+/*}*/
 .options{
     background-color: #d9d9d9;
     color: #3c6e71;
@@ -231,13 +231,13 @@ sup{
     float: right;
    
 }
-/*#titlenav{*/
-/*    font-weight: bolder;*/
-/*    float: left;*/
-/*    font-size: 20px;*/
-/*    color: #DD0000;*/
-/*    cursor: pointer;*/
-/*}*/
+#titlenav{
+    font-weight: bolder;
+    float: left;
+    font-size: 20px;
+    color: #DD0000;
+    cursor: pointer;
+}
 #upline{
     background-color: #FFCE00;
     height: 35px;

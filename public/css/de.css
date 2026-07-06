@@ -1,7 +1,35 @@
-/*body{*/
-/*    font-family: "Century Gothic";*/
-/*    font-weight: normal;*/
-/*}*/
+#leftspace{
+    width: 20%;
+    float: left;
+
+}
+#rightspace{
+    width: 20%;
+    float: right;
+
+}
+#pageName{
+    color: #DD0000;
+}
+#langChoose a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+}
+
+#titlenav{
+    color: #DD0000;
+}
+#upline{
+    background-color: #FFCE00;
+}
+
+#flag{
+    width: 5%;
+    position: absolute;
+    margin-left: 20px;
+    transform: translateY(50%);
+}
 .options{
     background-color: #d9d9d9;
     color: #3c6e71;
@@ -197,72 +225,7 @@ select{
     margin-bottom: 20px;
     box-shadow: 2px -2px 5px #DD0000;
 }
-#leftspace{
-    width: 20%;
-    float: left;
-   
-}
-#rightspace{
-    width: 20%;
-    float: right;
- 
-}
-#pageName{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    padding: 30px;
-    width: 50%;
-    left: 0;
-    margin: auto;
-    color: #DD0000;
-    position: relative;
-}
-sup{
-    font-size: 12px;
-    position: absolute;
-}
-#langChoose a{
-    text-decoration: none;
-    font-size: 13px;
-    color: #000000;
-}
-#langChoose{
-    float: right;
-   
-}
-#titlenav{
-    font-weight: bolder;
-    float: left;
-    font-size: 20px;
-    color: #DD0000;
-    cursor: pointer;
-}
-#upline{
-    background-color: #FFCE00;
-    height: 35px;
-    padding-left: 7px;
-    padding-right: 7px;
 
-}
-#upline span{
-    transform: translateY(30%);
-}
-#flag{
-    width: 5%;
-    position: absolute;
-    margin-left: 20px;
-    transform: translateY(50%);
-}
-section {
-    display: block;
-}
-aside {
-    display: block;
-}
-main{
-    display: block;
-}
 #verb{
   font-weight: bolder;
 }

@@ -1,7 +1,33 @@
-/*body{*/
-/*    font-family: "Century Gothic";*/
-/*    font-weight: normal;*/
-/*}*/
+#langChoose a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+}
+#leftspace{
+    width: 20%;
+    float: left;
+
+}
+#rightspace{
+    width: 20%;
+    float: right;
+}
+#pageName{
+    color: #DD0000;
+}
+#titlenav{
+    color: #DD0000;
+}
+#upline{
+    background-color: #FFCE00;
+}
+
+#flag{
+    width: 5%;
+    position: absolute;
+    margin-left: 20px;
+    transform: translateY(50%);
+}
 #gameoptions{
     text-align: justify;
     display: flex;
@@ -109,84 +135,14 @@
     /*font-weight: bold;*/
     font-size: large;
 }
-#leftspace{
-    width: 20%;
-    float: left;
-   
-}
-#rightspace{
-    width: 20%;
-    float: right;
- 
-}
-#pageName{
-    cursor: pointer;
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    padding: 30px;
-    width: 50%;
-    left: 0;
-    margin: auto;
-    color: #DD0000;
-    position: relative;
-}
+
+
 .gameinfo{
     /*background-color: #ffffff;*/
     border-bottom: 2px #d9d9d9 solid;
     color: #284b63;
 }
-sup{
-    font-size: 12px;
-    position: absolute;
-}
-#langChoose a{
-    text-decoration: none;
-    font-size: 13px;
-    color: #000000;
-}
-#langChoose{
-    float: right;
-   
-}
-#titlenav{
-    font-weight: bolder;
-    float: left;
-    font-size: 20px;
-    color: #DD0000;
-    cursor: pointer;
-}
-#upline{
-    background-color: #FFCE00;
-    height: 35px;
-    padding-left: 7px;
-    padding-right: 7px;
 
-}
-#upline span{
-    transform: translateY(30%);
-}
-#flag{
-    width: 5%;
-    position: absolute;
-    margin-left: 20px;
-    transform: translateY(50%);
-}
-section {
-    display: block;
-}
-aside {
-    display: block;
-}
-main{
-    display: block;
-}
-#verb{
-  font-weight: bolder;
-}
-#pronounverb{
-    font-size: 1.2em;
-}
 #backtogames{
      -webkit-appearance: none;
      box-shadow: 0 1px 1px rgba(0,0,0,0.05), inset 0px -5px 1px -2px rgba(0,0,0,0.05);

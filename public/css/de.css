@@ -231,12 +231,13 @@ sup{
     float: right;
    
 }
-#titlenav{
-    font-weight: bolder;
-    float: left;
-    font-size: 20px;
-    color: #DD0000;
-}
+/*#titlenav{*/
+/*    font-weight: bolder;*/
+/*    float: left;*/
+/*    font-size: 20px;*/
+/*    color: #DD0000;*/
+/*    cursor: pointer;*/
+/*}*/
 #upline{
     background-color: #FFCE00;
     height: 35px;

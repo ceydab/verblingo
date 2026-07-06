@@ -35,7 +35,7 @@ test.describe('Game UI Flow', () => {
     await page.locator('#gameoptions .games').first().click();
 
     // Click the back button
-    await page.locator('#backtogames').click();
+    await page.locator('.backtoGames').first().click();
 
     // Verify main menu is visible again
     await expect(page.locator('#whatGames')).toBeVisible();

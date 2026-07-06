@@ -6,8 +6,7 @@ export async function games(gameid, shuffled) {
 		const gameSection = document.getElementById(`play${gameid}`);
 		const board = document.getElementById(`${gameid}board`);
 		const gamesMenu = document.getElementById('whatGames');
-		// const backButton = document.getElementById('backtogames');
-		const backButton = document.getElementsByClassName('backtoGames');
+
 		if (!gameSection || !board) {
 			console.error(`Game elements not found for id "${gameid}"`);
 			return;
@@ -38,9 +37,6 @@ export async function games(gameid, shuffled) {
 			targetCard.textContent = card;
 		};
 
-		if (backButton) {
-			backButton.onclick = () => showSection(gamesMenu, gameSection);
-		}
 	} catch (error) {
 		console.error('Error running game pipeline:', error);
 	}

@@ -21,15 +21,37 @@
 	</nav>
 	<header id="pageName" onclick="location.href='index.html'">Verblingo</header>
     <aside id="rightSpace"></aside>
-    <div id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div id="intro">
+        <span style="font-size: 20px; font-weight: bold;">
+            Practice German individually with conjugation quizzes or in a group with speaking games!
+        </span>
+        <p style="text-align: center; margin: 0;margin-top: 16px">Two ways to use Verblingo: </p>
+        <div class="row" style="padding: 0;margin: 0">
+            <div class="column">
+                <h4 style="font-size: 18px; margin-bottom: 10px; ">&#128373;Conjugation Quiz</h4>
+                    Pick your tenses, pick your verb types, and drill exactly what you need.
+                    No fluff, just focused practice. <br>
+                    <a id="a_conj" href="de.html">→ Start practicing</a>
+
+            </div>
+            <div class="column" style="float: right">
+                <h4 style="font-size: 18px; margin-bottom: 10px">&#128586; Speaking Games</h4>
+                Fluency isn't just knowing the rules, it's using them out loud.
+                Play through quick speaking prompts designed to get you talking.<br>
+                <a id="a_games" href="games.html">→ Start practicing</a>
+            </div>
+        </div>
+        <br>
+        <span style="font-size: 16px">No account required. Pick a mode and start practising!</span>
+    </div>
     <section id="directory">
 
-        <div class="container" onclick="location.href='de.html'">
+        <div id="container_conj" class="container" onclick="location.href='de.html'">
             <img id="flag" title="Conjugation Exercises" src="assets/de.png" alt="German Conjugation">
             <div class="imgtitle">Conjugation Exercises</div>
         </div>
 
-        <div class="container" onclick="location.href='games.html'">
+        <div id="container_games" class="container" onclick="location.href='games.html'">
             <img id="convo" title="Speaking Exercises" src="assets/convo.png" alt="German Speaking Games">
             <div class="imgtitle">Speaking Exercises</div>
         </div>

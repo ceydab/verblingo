@@ -144,12 +144,13 @@ body:has(#a_games:hover) #container_games .imgtitle {
   clear: both;
 }
 #aboutContent{
-    width: 30%;
+    width: 50%;
     border: 2px #d9d9d9 solid;
     padding: 20px;
     margin: auto;
     left: 0;
     color: #3c6e71;
+    text-align: justify;
 }
 h2{
     background-color: #d9d9d9;

@@ -125,6 +125,7 @@
     text-align: center;
     border: solid;
     border-color: #DD0000;
+    border-radius: 10px;
     box-shadow:  -6px -6px 6px  #000000,6px -6px 6px  #000000, -6px 6px 6px  #000000,6px 6px 6px  #000000, inset -6px -6px 6px  #FFCE00, inset 6px -6px 6px  #FFCE00, inset -6px 6px 6px  #FFCE00, inset 6px 6px 6px  #FFCE00;
     border-width: 10px;
     padding-bottom: 20px;

@@ -75,7 +75,7 @@
 }
 #options{
     text-align: justify;
-    display: flex;
+    display: inline;
     justify-content: space-evenly;
     /*color: #DD0000;*/
     left: 0;
